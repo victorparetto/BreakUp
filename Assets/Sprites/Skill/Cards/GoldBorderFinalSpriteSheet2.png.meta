@@ -1,0 +1,1568 @@
+fileFormatVersion: 2
+guid: f53217b1d7e82064abaf859a0d81c298
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5357972684489222207
+    second: GoldBorderFinalSpriteSheet2_0
+  - first:
+      213: -1278799669009223856
+    second: GoldBorderFinalSpriteSheet2_1
+  - first:
+      213: 186041078554329565
+    second: GoldBorderFinalSpriteSheet2_2
+  - first:
+      213: 5329511429283593386
+    second: GoldBorderFinalSpriteSheet2_3
+  - first:
+      213: 3259832589762546628
+    second: GoldBorderFinalSpriteSheet2_4
+  - first:
+      213: 2333811457205519464
+    second: GoldBorderFinalSpriteSheet2_5
+  - first:
+      213: -8623184403019626169
+    second: GoldBorderFinalSpriteSheet2_6
+  - first:
+      213: 928585971276794968
+    second: GoldBorderFinalSpriteSheet2_7
+  - first:
+      213: -7455869900716230393
+    second: GoldBorderFinalSpriteSheet2_8
+  - first:
+      213: -2228823626241941445
+    second: GoldBorderFinalSpriteSheet2_9
+  - first:
+      213: -864719483280678372
+    second: GoldBorderFinalSpriteSheet2_10
+  - first:
+      213: 2673316072926479555
+    second: GoldBorderFinalSpriteSheet2_11
+  - first:
+      213: -7073303170074864477
+    second: GoldBorderFinalSpriteSheet2_12
+  - first:
+      213: 7093771401983061933
+    second: GoldBorderFinalSpriteSheet2_13
+  - first:
+      213: -8410388375157549485
+    second: GoldBorderFinalSpriteSheet2_14
+  - first:
+      213: 6474504933205617604
+    second: GoldBorderFinalSpriteSheet2_15
+  - first:
+      213: 5498478824126650648
+    second: GoldBorderFinalSpriteSheet2_16
+  - first:
+      213: 4867531179617439531
+    second: GoldBorderFinalSpriteSheet2_17
+  - first:
+      213: 929538483447786716
+    second: GoldBorderFinalSpriteSheet2_18
+  - first:
+      213: -6389038023056988926
+    second: GoldBorderFinalSpriteSheet2_19
+  - first:
+      213: 6044955777150475732
+    second: GoldBorderFinalSpriteSheet2_20
+  - first:
+      213: 2761528673903087088
+    second: GoldBorderFinalSpriteSheet2_21
+  - first:
+      213: 8649266137217016897
+    second: GoldBorderFinalSpriteSheet2_22
+  - first:
+      213: 1585872878074400610
+    second: GoldBorderFinalSpriteSheet2_23
+  - first:
+      213: 6573069324252377168
+    second: GoldBorderFinalSpriteSheet2_24
+  - first:
+      213: 2574495714098551673
+    second: GoldBorderFinalSpriteSheet2_25
+  - first:
+      213: -1058799562503697511
+    second: GoldBorderFinalSpriteSheet2_26
+  - first:
+      213: -2032336507893142738
+    second: GoldBorderFinalSpriteSheet2_27
+  - first:
+      213: 3078776873307544939
+    second: GoldBorderFinalSpriteSheet2_28
+  - first:
+      213: -992495127367350082
+    second: GoldBorderFinalSpriteSheet2_29
+  - first:
+      213: 145145519302074570
+    second: GoldBorderFinalSpriteSheet2_30
+  - first:
+      213: 1783768400158121655
+    second: GoldBorderFinalSpriteSheet2_31
+  - first:
+      213: -8126711948930460897
+    second: GoldBorderFinalSpriteSheet2_32
+  - first:
+      213: 4723074298127397892
+    second: GoldBorderFinalSpriteSheet2_33
+  - first:
+      213: 4919909693237596741
+    second: GoldBorderFinalSpriteSheet2_34
+  - first:
+      213: 1296012073573890837
+    second: GoldBorderFinalSpriteSheet2_35
+  - first:
+      213: -1698686514005205494
+    second: GoldBorderFinalSpriteSheet2_36
+  - first:
+      213: 1532339517129792980
+    second: GoldBorderFinalSpriteSheet2_37
+  - first:
+      213: 3728392120806698054
+    second: GoldBorderFinalSpriteSheet2_38
+  - first:
+      213: 5263582153192727584
+    second: GoldBorderFinalSpriteSheet2_39
+  - first:
+      213: -4673910642173156123
+    second: GoldBorderFinalSpriteSheet2_40
+  - first:
+      213: 7329998632393706118
+    second: GoldBorderFinalSpriteSheet2_41
+  - first:
+      213: -7557352185112401261
+    second: GoldBorderFinalSpriteSheet2_42
+  - first:
+      213: -6650543685175597907
+    second: GoldBorderFinalSpriteSheet2_43
+  - first:
+      213: 8778218434590293946
+    second: GoldBorderFinalSpriteSheet2_44
+  - first:
+      213: -5693257001800373775
+    second: GoldBorderFinalSpriteSheet2_45
+  - first:
+      213: -556075410576754571
+    second: GoldBorderFinalSpriteSheet2_46
+  - first:
+      213: 2879492956005900794
+    second: GoldBorderFinalSpriteSheet2_47
+  - first:
+      213: 1393024898486240666
+    second: GoldBorderFinalSpriteSheet2_48
+  - first:
+      213: 365831682014467519
+    second: GoldBorderFinalSpriteSheet2_49
+  - first:
+      213: 1172535605488333665
+    second: GoldBorderFinalSpriteSheet2_50
+  - first:
+      213: -9163862075498005755
+    second: GoldBorderFinalSpriteSheet2_51
+  - first:
+      213: -8531591465395495978
+    second: GoldBorderFinalSpriteSheet2_52
+  - first:
+      213: 5760901586624007741
+    second: GoldBorderFinalSpriteSheet2_53
+  - first:
+      213: 4206426020749821748
+    second: GoldBorderFinalSpriteSheet2_54
+  - first:
+      213: -7557004997256878758
+    second: GoldBorderFinalSpriteSheet2_55
+  - first:
+      213: -6298649969243404606
+    second: GoldBorderFinalSpriteSheet2_56
+  - first:
+      213: 2146006862277584985
+    second: GoldBorderFinalSpriteSheet2_57
+  - first:
+      213: 5590930547043491309
+    second: GoldBorderFinalSpriteSheet2_58
+  - first:
+      213: -1426422232066122970
+    second: GoldBorderFinalSpriteSheet2_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c716c03b38a4a5b0800000000000000
+      internalID: -5357972684489222207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f61d5f97ac04ee0800000000000000
+      internalID: -1278799669009223856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd18cd01063f49200800000000000000
+      internalID: 186041078554329565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac35d0786a36f940800000000000000
+      internalID: 5329511429283593386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbc90418704d3d20800000000000000
+      internalID: 3259832589762546628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864c87fb72d536020800000000000000
+      internalID: 2333811457205519464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7498359197b445880800000000000000
+      internalID: -8623184403019626169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c4d51650003ec00800000000000000
+      internalID: 928585971276794968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709384404dd678890800000000000000
+      internalID: -7455869900716230393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 640
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30e9d288b0a111e0800000000000000
+      internalID: -2228823626241941445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1222b02636eff3f0800000000000000
+      internalID: -864719483280678372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c40023fdc6891520800000000000000
+      internalID: 2673316072926479555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a41b072e3496dd90800000000000000
+      internalID: -7073303170074864477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf66057183227260800000000000000
+      internalID: 7093771401983061933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356d8ab355c484b80800000000000000
+      internalID: -8410388375157549485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb2c30feef0ad950800000000000000
+      internalID: 6474504933205617604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_16
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819931dbb558e4c40800000000000000
+      internalID: 5498478824126650648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_17
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f4c3e81d1fc8340800000000000000
+      internalID: 4867531179617439531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_18
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdce5f6635266ec00800000000000000
+      internalID: 929538483447786716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_19
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 512
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2056933c4c39557a0800000000000000
+      internalID: -6389038023056988926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dddff3704ff3e350800000000000000
+      internalID: 6044955777150475732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_21
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fd8c0d92bbe25620800000000000000
+      internalID: 2761528673903087088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144a2acd9bd580870800000000000000
+      internalID: 8649266137217016897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_23
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f0d84faf6220610800000000000000
+      internalID: 1585872878074400610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050741c89bb383b50800000000000000
+      internalID: 6573069324252377168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b1c9236327ab320800000000000000
+      internalID: 2574495714098551673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_26
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bc0ac58636e41f0800000000000000
+      internalID: -1058799562503697511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ba8feb6b0bbc3e0800000000000000
+      internalID: -2032336507893142738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d1f2411430aba20800000000000000
+      internalID: 3078776873307544939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 384
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb886fba0f2f932f0800000000000000
+      internalID: -992495127367350082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac06dbea419a30200800000000000000
+      internalID: 145145519302074570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7beddfcb8e731c810800000000000000
+      internalID: 1783768400158121655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_32
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13d3142a8e183f80800000000000000
+      internalID: -8126711948930460897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40439abdc0bbb8140800000000000000
+      internalID: 4723074298127397892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5429d689cc7074440800000000000000
+      internalID: 4919909693237596741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b3df54d1c5cf110800000000000000
+      internalID: 1296012073573890837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e19f39d9d0d68e0800000000000000
+      internalID: -1698686514005205494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_37
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd90d11ca6f34510800000000000000
+      internalID: 1532339517129792980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_38
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c6c0841e8edb330800000000000000
+      internalID: 3728392120806698054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_39
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 256
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0246327a4100c0940800000000000000
+      internalID: 5263582153192727584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4e95dc80fe22fb0800000000000000
+      internalID: -4673910642173156123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_41
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a0def8be269b560800000000000000
+      internalID: 7329998632393706118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_42
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a6adb6a34ee1790800000000000000
+      internalID: -7557352185112401261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da424e121c584b3a0800000000000000
+      internalID: -6650543685175597907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_44
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf3a82482f72d970800000000000000
+      internalID: 8778218434590293946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_45
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9eea8cbec7df0b0800000000000000
+      internalID: -5693257001800373775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_46
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5783e3c3c5c6848f0800000000000000
+      internalID: -556075410576754571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_47
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1a8f7569306f720800000000000000
+      internalID: 2879492956005900794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_48
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a950c8db3c4055310800000000000000
+      internalID: 1393024898486240666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_49
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 128
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb55e0ef9f1b31500800000000000000
+      internalID: 365831682014467519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16331abbbeea54010800000000000000
+      internalID: 1172535605488333665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_51
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b744b9efb63d080800000000000000
+      internalID: -9163862075498005755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_52
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbd858b3c2b99980800000000000000
+      internalID: -8531591465395495978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_53
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e45b07875d2ff40800000000000000
+      internalID: 5760901586624007741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_54
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437c0c4ed2a306a30800000000000000
+      internalID: 4206426020749821748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_55
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55e6a46eff102790800000000000000
+      internalID: -7557004997256878758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_56
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6c8b28933b698a0800000000000000
+      internalID: -6298649969243404606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_57
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9582b970fd528cd10800000000000000
+      internalID: 2146006862277584985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_58
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded5864e5b9f69d40800000000000000
+      internalID: 5590930547043491309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GoldBorderFinalSpriteSheet2_59
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b9af59984543ce0800000000000000
+      internalID: -1426422232066122970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f2601c8ca437c07428b17d4d0e61fc6c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

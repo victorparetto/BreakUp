@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: fa20eea2717159b44a4c4eea606ef337
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2339823674442606153
+    second: UnbreakableBlock_SS_Sprite_0
+  - first:
+      213: -8717887312181935418
+    second: UnbreakableBlock_SS_Sprite_1
+  - first:
+      213: -286579690147086415
+    second: UnbreakableBlock_SS_Sprite_2
+  - first:
+      213: 1480560222284662460
+    second: UnbreakableBlock_SS_Sprite_3
+  - first:
+      213: -8407026586838736423
+    second: UnbreakableBlock_SS_Sprite_4
+  - first:
+      213: -8523758969261974545
+    second: UnbreakableBlock_SS_Sprite_5
+  - first:
+      213: 7603720690052023653
+    second: UnbreakableBlock_SS_Sprite_6
+  - first:
+      213: 3996648058296457299
+    second: UnbreakableBlock_SS_Sprite_7
+  - first:
+      213: 7885589461717345204
+    second: UnbreakableBlock_SS_Sprite_8
+  - first:
+      213: 812115193279732353
+    second: UnbreakableBlock_SS_Sprite_9
+  - first:
+      213: -1046087667450816950
+    second: UnbreakableBlock_SS_Sprite_10
+  - first:
+      213: -6355247777723110752
+    second: UnbreakableBlock_SS_Sprite_11
+  - first:
+      213: -1683613608851419393
+    second: UnbreakableBlock_SS_Sprite_12
+  - first:
+      213: 7719967317111897645
+    second: UnbreakableBlock_SS_Sprite_13
+  - first:
+      213: -362804679775634543
+    second: UnbreakableBlock_SS_Sprite_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94663382c39b87020800000000000000
+      internalID: 2339823674442606153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 443
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2c28dcda7d30780800000000000000
+      internalID: -8717887312181935418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 443
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bff0f84a4dd50cf0800000000000000
+      internalID: -286579690147086415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 443
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6c9d58da10c8410800000000000000
+      internalID: 1480560222284662460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 443
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d166329cdd345b80800000000000000
+      internalID: -8407026586838736423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 251
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb1716d06685b980800000000000000
+      internalID: -8523758969261974545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 251
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c6dd6ea7d58960800000000000000
+      internalID: 7603720690052023653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 251
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358d30fdb32f67730800000000000000
+      internalID: 3996648058296457299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 251
+        width: 258
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b3e936f5dd3f6d60800000000000000
+      internalID: 7885589461717345204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 256
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ad22c2776354b00800000000000000
+      internalID: 812115193279732353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a465da11fcc8b71f0800000000000000
+      internalID: -1046087667450816950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa293551df9dc7a0800000000000000
+      internalID: -6355247777723110752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 60
+        width: 278
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffec569c75a92a8e0800000000000000
+      internalID: -1683613608851419393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 45
+        width: 298
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e741e6f55d22b60800000000000000
+      internalID: 7719967317111897645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UnbreakableBlock_SS_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 64
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bbf13e01f07faf0800000000000000
+      internalID: -362804679775634543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: c2fa50b1612575746ae8c8cdac96edb6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

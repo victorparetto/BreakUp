@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: 72b2ca2a17549204294c29de1919597a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 336980542453179291
+    second: MagneticField_Effect_Paddleitor_Glow_0
+  - first:
+      213: 8176147863931344433
+    second: MagneticField_Effect_Paddleitor_Glow_1
+  - first:
+      213: 3062808793541593820
+    second: MagneticField_Effect_Paddleitor_Glow_2
+  - first:
+      213: -843996703419905418
+    second: MagneticField_Effect_Paddleitor_Glow_3
+  - first:
+      213: 73082705784799223
+    second: MagneticField_Effect_Paddleitor_Glow_4
+  - first:
+      213: -8420600337477919883
+    second: MagneticField_Effect_Paddleitor_Glow_5
+  - first:
+      213: 3667394712435552747
+    second: MagneticField_Effect_Paddleitor_Glow_6
+  - first:
+      213: 6946979578308498705
+    second: MagneticField_Effect_Paddleitor_Glow_7
+  - first:
+      213: 3048636761274653614
+    second: MagneticField_Effect_Paddleitor_Glow_8
+  - first:
+      213: -6475708599392948736
+    second: MagneticField_Effect_Paddleitor_Glow_9
+  - first:
+      213: -1115646020185193922
+    second: MagneticField_Effect_Paddleitor_Glow_10
+  - first:
+      213: 6278988163028193315
+    second: MagneticField_Effect_Paddleitor_Glow_11
+  - first:
+      213: -1671658047028758488
+    second: MagneticField_Effect_Paddleitor_Glow_12
+  - first:
+      213: 1089597781517495808
+    second: MagneticField_Effect_Paddleitor_Glow_13
+  - first:
+      213: 4075827846025165239
+    second: MagneticField_Effect_Paddleitor_Glow_14
+  - first:
+      213: 8829800551372621407
+    second: MagneticField_Effect_Paddleitor_Glow_15
+  - first:
+      213: 310856019975422173
+    second: MagneticField_Effect_Paddleitor_Glow_16
+  - first:
+      213: -4947926722813289543
+    second: MagneticField_Effect_Paddleitor_Glow_17
+  - first:
+      213: -6091167767321796442
+    second: MagneticField_Effect_Paddleitor_Glow_18
+  - first:
+      213: 8518933928092481522
+    second: MagneticField_Effect_Paddleitor_Glow_19
+  - first:
+      213: -6014038014935898510
+    second: MagneticField_Effect_Paddleitor_Glow_20
+  - first:
+      213: -1932525207482001805
+    second: MagneticField_Effect_Paddleitor_Glow_21
+  - first:
+      213: -1864566477134526042
+    second: MagneticField_Effect_Paddleitor_Glow_22
+  - first:
+      213: 2486218307468685848
+    second: MagneticField_Effect_Paddleitor_Glow_23
+  - first:
+      213: 102036735349466921
+    second: MagneticField_Effect_Paddleitor_Glow_24
+  - first:
+      213: -5591707653614520405
+    second: MagneticField_Effect_Paddleitor_Glow_25
+  - first:
+      213: -2105148015251844563
+    second: MagneticField_Effect_Paddleitor_Glow_26
+  - first:
+      213: 8392733208809515759
+    second: MagneticField_Effect_Paddleitor_Glow_27
+  - first:
+      213: -8492116036105593133
+    second: MagneticField_Effect_Paddleitor_Glow_28
+  - first:
+      213: 465677858615069030
+    second: MagneticField_Effect_Paddleitor_Glow_29
+  - first:
+      213: -4832384853732318177
+    second: MagneticField_Effect_Paddleitor_Glow_30
+  - first:
+      213: 940477833033644328
+    second: MagneticField_Effect_Paddleitor_Glow_31
+  - first:
+      213: 513254723065478432
+    second: MagneticField_Effect_Paddleitor_Glow_32
+  - first:
+      213: -4022960342238619749
+    second: MagneticField_Effect_Paddleitor_Glow_33
+  - first:
+      213: 2002200946471589584
+    second: MagneticField_Effect_Paddleitor_Glow_34
+  - first:
+      213: 9122762146093341629
+    second: MagneticField_Effect_Paddleitor_Glow_35
+  - first:
+      213: 8190088130170167718
+    second: MagneticField_Effect_Paddleitor_Glow_36
+  - first:
+      213: -1389332078011694122
+    second: MagneticField_Effect_Paddleitor_Glow_37
+  - first:
+      213: -1426699911451056224
+    second: MagneticField_Effect_Paddleitor_Glow_38
+  - first:
+      213: -1867681805050689609
+    second: MagneticField_Effect_Paddleitor_Glow_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93e32994023da400800000000000000
+      internalID: 336980542453179291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13652b4c923877170800000000000000
+      internalID: 8176147863931344433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda4df9ce58418a20800000000000000
+      internalID: 3062808793541593820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a4e0d48758944f0800000000000000
+      internalID: -843996703419905418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fff68d6554a30100800000000000000
+      internalID: 73082705784799223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b18197b94042b80800000000000000
+      internalID: -8420600337477919883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1fddd6f0435e230800000000000000
+      internalID: 3667394712435552747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11598faae11a86060800000000000000
+      internalID: 6946979578308498705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_8
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab19f46bfeee4a20800000000000000
+      internalID: 3048636761274653614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_9
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ead30b659a126a0800000000000000
+      internalID: -6475708599392948736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3288c70bdd6480f0800000000000000
+      internalID: -1115646020185193922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3209d2e7772732750800000000000000
+      internalID: 6278988163028193315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8287de0fcd31dc8e0800000000000000
+      internalID: -1671658047028758488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e676bc8670f1f00800000000000000
+      internalID: 1089597781517495808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_14
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9b9ffc4df309830800000000000000
+      internalID: 4075827846025165239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f560d16b1d0c98a70800000000000000
+      internalID: 8829800551372621407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd04de637e1605400800000000000000
+      internalID: 310856019975422173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1d006cde655bb0800000000000000
+      internalID: -4947926722813289543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_18
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0a9712033d77ba0800000000000000
+      internalID: -6091167767321796442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b9f8b545593670800000000000000
+      internalID: 8518933928092481522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276ec060a48d98ca0800000000000000
+      internalID: -6014038014935898510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3761c80109a4e25e0800000000000000
+      internalID: -1932525207482001805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a98b4efaaabf16e0800000000000000
+      internalID: -1864566477134526042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8127ebac062d08220800000000000000
+      internalID: 2486218307468685848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_24
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927ab84ced18a6100800000000000000
+      internalID: 102036735349466921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba73972e3834662b0800000000000000
+      internalID: -5591707653614520405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d229b4f980309c2e0800000000000000
+      internalID: -2105148015251844563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea27b5036af87470800000000000000
+      internalID: 8392733208809515759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de17845571f52a80800000000000000
+      internalID: -8492116036105593133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669048e8b8b667600800000000000000
+      internalID: 465677858615069030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14ae4f149befecb0800000000000000
+      internalID: -4832384853732318177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82979153b9f3d0d00800000000000000
+      internalID: 940477833033644328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02dfb9783727f1700800000000000000
+      internalID: 513254723065478432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_33
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97126f12e29b28c0800000000000000
+      internalID: -4022960342238619749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_34
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6d367172f39cb10800000000000000
+      internalID: 2002200946471589584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb164066df8a9e70800000000000000
+      internalID: 9122762146093341629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1afede2c909a170800000000000000
+      internalID: 8190088130170167718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3ce0706d918bce0800000000000000
+      internalID: -1389332078011694122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7e0e05df7533ce0800000000000000
+      internalID: -1426699911451056224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Paddleitor_Glow_39
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b74e703b49a416e0800000000000000
+      internalID: -1867681805050689609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 63f35efebf4f8b44585fbd5af04606f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

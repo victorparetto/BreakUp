@@ -1,0 +1,1102 @@
+fileFormatVersion: 2
+guid: 8ddfbaadd8831e24887114174f46ca0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7237816936994417984
+    second: FireField_SpriteSheet_0
+  - first:
+      213: 791632358814696799
+    second: FireField_SpriteSheet_2
+  - first:
+      213: 5091115081746679847
+    second: FireField_SpriteSheet_4
+  - first:
+      213: -4942133355074469901
+    second: FireField_SpriteSheet_5
+  - first:
+      213: -4201741233682042906
+    second: FireField_SpriteSheet_6
+  - first:
+      213: -3502096269428201027
+    second: FireField_SpriteSheet_7
+  - first:
+      213: -6195604348677286203
+    second: FireField_SpriteSheet_8
+  - first:
+      213: -5100537843513554821
+    second: FireField_SpriteSheet_9
+  - first:
+      213: -1367955731402245383
+    second: FireField_SpriteSheet_10
+  - first:
+      213: -8869942581617813408
+    second: FireField_SpriteSheet_11
+  - first:
+      213: 3939035457334888597
+    second: FireField_SpriteSheet_12
+  - first:
+      213: 8277975100750936270
+    second: FireField_SpriteSheet_14
+  - first:
+      213: 853444242439199751
+    second: FireField_SpriteSheet_16
+  - first:
+      213: -3581778839821069991
+    second: FireField_SpriteSheet_17
+  - first:
+      213: 8485070825898875173
+    second: FireField_SpriteSheet_18
+  - first:
+      213: 6061023634482918064
+    second: FireField_SpriteSheet_19
+  - first:
+      213: -1587304545819749498
+    second: FireField_SpriteSheet_20
+  - first:
+      213: -2448445569537343738
+    second: FireField_SpriteSheet_21
+  - first:
+      213: -3893513800314932419
+    second: FireField_SpriteSheet_22
+  - first:
+      213: -581045192935643641
+    second: FireField_SpriteSheet_23
+  - first:
+      213: 204440010301758678
+    second: FireField_SpriteSheet_24
+  - first:
+      213: 4851719295027152316
+    second: FireField_SpriteSheet_26
+  - first:
+      213: 5043832004409164763
+    second: FireField_SpriteSheet_28
+  - first:
+      213: -4057378307853909035
+    second: FireField_SpriteSheet_29
+  - first:
+      213: 5087853202470599188
+    second: FireField_SpriteSheet_30
+  - first:
+      213: 5495315847120012927
+    second: FireField_SpriteSheet_31
+  - first:
+      213: 7274980701219236148
+    second: FireField_SpriteSheet_32
+  - first:
+      213: -91979250780607456
+    second: FireField_SpriteSheet_33
+  - first:
+      213: 6338922620077849799
+    second: FireField_SpriteSheet_34
+  - first:
+      213: 4626221014543611449
+    second: FireField_SpriteSheet_35
+  - first:
+      213: -7863873251282141723
+    second: FireField_SpriteSheet_36
+  - first:
+      213: -6159827889152619520
+    second: FireField_SpriteSheet_38
+  - first:
+      213: -291702196679306079
+    second: FireField_SpriteSheet_40
+  - first:
+      213: -3237946307510502785
+    second: FireField_SpriteSheet_41
+  - first:
+      213: 142595140619539513
+    second: FireField_SpriteSheet_42
+  - first:
+      213: 3501035985112551500
+    second: FireField_SpriteSheet_43
+  - first:
+      213: -603958736155197739
+    second: FireField_SpriteSheet_44
+  - first:
+      213: 2982122390123962757
+    second: FireField_SpriteSheet_45
+  - first:
+      213: -3972486696813796987
+    second: FireField_SpriteSheet_46
+  - first:
+      213: -6814767920238455053
+    second: FireField_SpriteSheet_47
+  - first:
+      213: 3196077644297717487
+    second: FireField_SpriteSheet_1
+  - first:
+      213: 1727651301074946421
+    second: FireField_SpriteSheet_3
+  - first:
+      213: -2554743898312284962
+    second: FireField_SpriteSheet_13
+  - first:
+      213: 5559691258069842301
+    second: FireField_SpriteSheet_15
+  - first:
+      213: -5072237525304247826
+    second: FireField_SpriteSheet_25
+  - first:
+      213: -53126040955038408
+    second: FireField_SpriteSheet_27
+  - first:
+      213: 4468577505264498726
+    second: FireField_SpriteSheet_37
+  - first:
+      213: -17887772201892505
+    second: FireField_SpriteSheet_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dabd61824e17460800000000000000
+      internalID: 7237816936994417984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55cad3af617cfa00800000000000000
+      internalID: 791632358814696799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7280526613647a640800000000000000
+      internalID: 5091115081746679847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff3d2ae5e30a6bb0800000000000000
+      internalID: -4942133355074469901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef25481c9a60b5c0800000000000000
+      internalID: -4201741233682042906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db9e2837ffd066fc0800000000000000
+      internalID: -3502096269428201027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6993cabaac40aa0800000000000000
+      internalID: -6195604348677286203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7800f9eadf3739b0800000000000000
+      internalID: -5100537843513554821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa3f41928b040de0800000000000000
+      internalID: -1367955731402245383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0681f8c8732a7e480800000000000000
+      internalID: -8869942581617813408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5984d18e0e34aa630800000000000000
+      internalID: 3939035457334888597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8b9cbde7641e270800000000000000
+      internalID: 8277975100750936270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cd03a440b08db00800000000000000
+      internalID: 853444242439199751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951547c4f17fa4ec0800000000000000
+      internalID: -3581778839821069991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5299bb7d5f601c570800000000000000
+      internalID: 8485070825898875173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2f99402e41d1450800000000000000
+      internalID: 6061023634482918064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6831d0cece2c8f9e0800000000000000
+      internalID: -1587304545819749498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ff8d71abf550ed0800000000000000
+      internalID: -2448445569537343738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33b52cc3d577f9c0800000000000000
+      internalID: -3893513800314932419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7066f9cb976bfe7f0800000000000000
+      internalID: -581045192935643641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dcd9ef2b1156d200800000000000000
+      internalID: 204440010301758678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5800a4ef4c45340800000000000000
+      internalID: 4851719295027152316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd30e811c7a4ff540800000000000000
+      internalID: 5043832004409164763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d30ef80deb41b7c0800000000000000
+      internalID: -4057378307853909035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41af792f78fab9640800000000000000
+      internalID: 5087853202470599188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76c924c5a8434c40800000000000000
+      internalID: 5495315847120012927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439aefb376ce5f460800000000000000
+      internalID: 7274980701219236148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ce386db5939bef0800000000000000
+      internalID: -91979250780607456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ccbd64b98068f750800000000000000
+      internalID: 6338922620077849799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936b1508083a33040800000000000000
+      internalID: 4626221014543611449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edb1aa41f8edd290800000000000000
+      internalID: -7863873251282141723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c8385cb25e38aa0800000000000000
+      internalID: -6159827889152619520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6cee61fafba5c20800000000000000
+      internalID: 3196077644297717487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579405074b9d9f710800000000000000
+      internalID: 1727651301074946421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4eff8c5f9bb8cd0800000000000000
+      internalID: -2554743898312284962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79f8122ebdf72d40800000000000000
+      internalID: 5559691258069842301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee975d738dacb99b0800000000000000
+      internalID: -5072237525304247826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8355d80b522434ff0800000000000000
+      internalID: -53126040955038408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6287794c093930e30800000000000000
+      internalID: 4468577505264498726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765451c7a2370cff0800000000000000
+      internalID: -17887772201892505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ab1b05133d94f8a468916b3a98524c8a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 85aade1e17a2c864bbed55eec26de54c, type: 3}
+      name: _emission
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

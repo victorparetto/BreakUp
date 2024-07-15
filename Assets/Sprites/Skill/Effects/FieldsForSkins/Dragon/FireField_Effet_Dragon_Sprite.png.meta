@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: 13ba855e9046270438fcf0632dd796d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8096611978269601281
+    second: FireField_Effet_Dragon_Sprite_0
+  - first:
+      213: 4653034560529013839
+    second: FireField_Effet_Dragon_Sprite_1
+  - first:
+      213: -1898189423432679292
+    second: FireField_Effet_Dragon_Sprite_2
+  - first:
+      213: 6093600395651522828
+    second: FireField_Effet_Dragon_Sprite_3
+  - first:
+      213: 7336264984148236351
+    second: FireField_Effet_Dragon_Sprite_4
+  - first:
+      213: -6293282275218472844
+    second: FireField_Effet_Dragon_Sprite_5
+  - first:
+      213: 558947448714430156
+    second: FireField_Effet_Dragon_Sprite_6
+  - first:
+      213: -877383156865808629
+    second: FireField_Effet_Dragon_Sprite_7
+  - first:
+      213: -8577914867238537183
+    second: FireField_Effet_Dragon_Sprite_8
+  - first:
+      213: -7988986523316226605
+    second: FireField_Effet_Dragon_Sprite_9
+  - first:
+      213: 6204007674572888076
+    second: FireField_Effet_Dragon_Sprite_10
+  - first:
+      213: -5804527252077066419
+    second: FireField_Effet_Dragon_Sprite_11
+  - first:
+      213: -6345612019815981788
+    second: FireField_Effet_Dragon_Sprite_12
+  - first:
+      213: 8299662257914756008
+    second: FireField_Effet_Dragon_Sprite_13
+  - first:
+      213: 4065680742909182438
+    second: FireField_Effet_Dragon_Sprite_14
+  - first:
+      213: -2925944526431950409
+    second: FireField_Effet_Dragon_Sprite_15
+  - first:
+      213: -3570984472632461654
+    second: FireField_Effet_Dragon_Sprite_16
+  - first:
+      213: -6161928901550050543
+    second: FireField_Effet_Dragon_Sprite_17
+  - first:
+      213: 6668879988604070878
+    second: FireField_Effet_Dragon_Sprite_18
+  - first:
+      213: -3289071069262430126
+    second: FireField_Effet_Dragon_Sprite_19
+  - first:
+      213: -9208198433173163840
+    second: FireField_Effet_Dragon_Sprite_20
+  - first:
+      213: 6205513482124177565
+    second: FireField_Effet_Dragon_Sprite_21
+  - first:
+      213: 9137228899490931869
+    second: FireField_Effet_Dragon_Sprite_22
+  - first:
+      213: 8003026807351475893
+    second: FireField_Effet_Dragon_Sprite_23
+  - first:
+      213: -8032113562206914303
+    second: FireField_Effet_Dragon_Sprite_24
+  - first:
+      213: -6364548191783910598
+    second: FireField_Effet_Dragon_Sprite_25
+  - first:
+      213: 7396544605030152301
+    second: FireField_Effet_Dragon_Sprite_26
+  - first:
+      213: -231238305172362893
+    second: FireField_Effet_Dragon_Sprite_27
+  - first:
+      213: -1083075240037221842
+    second: FireField_Effet_Dragon_Sprite_28
+  - first:
+      213: 5514759359089313006
+    second: FireField_Effet_Dragon_Sprite_29
+  - first:
+      213: -2764525863291459225
+    second: FireField_Effet_Dragon_Sprite_30
+  - first:
+      213: 3959466277322594000
+    second: FireField_Effet_Dragon_Sprite_31
+  - first:
+      213: -9211891000218165182
+    second: FireField_Effet_Dragon_Sprite_32
+  - first:
+      213: -6155976835418088018
+    second: FireField_Effet_Dragon_Sprite_33
+  - first:
+      213: -2281433168790655464
+    second: FireField_Effet_Dragon_Sprite_34
+  - first:
+      213: -4025334693923105974
+    second: FireField_Effet_Dragon_Sprite_35
+  - first:
+      213: -3362988838519751911
+    second: FireField_Effet_Dragon_Sprite_36
+  - first:
+      213: -1611197159718843663
+    second: FireField_Effet_Dragon_Sprite_37
+  - first:
+      213: -7872479521824975394
+    second: FireField_Effet_Dragon_Sprite_38
+  - first:
+      213: 368382635762282439
+    second: FireField_Effet_Dragon_Sprite_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1511fad4e03af80800000000000000
+      internalID: -8096611978269601281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c92fba746e29040800000000000000
+      internalID: 4653034560529013839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48044e3c6c648a5e0800000000000000
+      internalID: -1898189423432679292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c012df94641d09450800000000000000
+      internalID: 6093600395651522828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1344
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38da464226afc560800000000000000
+      internalID: 7336264984148236351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470475a2d15c9a8a0800000000000000
+      internalID: -6293282275218472844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc60cb04eb7c1c700800000000000000
+      internalID: 558947448714430156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b074a1bdaa8e2d3f0800000000000000
+      internalID: -877383156865808629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12874b040ef15f880800000000000000
+      internalID: -8577914867238537183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1152
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d57a52a51b612190800000000000000
+      internalID: -7988986523316226605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c08d6ba1c10191650800000000000000
+      internalID: 6204007674572888076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d474fdac73d227fa0800000000000000
+      internalID: -5804527252077066419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d5b6c0d7bdfe7a0800000000000000
+      internalID: -6345612019815981788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abb9be99d25e2370800000000000000
+      internalID: 8299662257914756008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 960
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e18f3348133c6830800000000000000
+      internalID: 4065680742909182438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b9668d94f4f467d0800000000000000
+      internalID: -2925944526431950409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa67e42ca80517ec0800000000000000
+      internalID: -3570984472632461654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11375e3bf4e6c7aa0800000000000000
+      internalID: -6161928901550050543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbe472340f9c8c50800000000000000
+      internalID: 6668879988604070878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 768
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250499be94fda52d0800000000000000
+      internalID: -3289071069262430126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0b769ef48e53080800000000000000
+      internalID: -9208198433173163840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90b8ee32a96e1650800000000000000
+      internalID: 6205513482124177565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d942791e545fdce70800000000000000
+      internalID: 9137228899490931869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5befc1cba76701f60800000000000000
+      internalID: 8003026807351475893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 576
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1093f096543388090800000000000000
+      internalID: -8032113562206914303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a338dd0f3259ca7a0800000000000000
+      internalID: -6364548191783910598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d687724312ec5a660800000000000000
+      internalID: 7396544605030152301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379ecb19cf97accf0800000000000000
+      internalID: -231238305172362893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a7f8cbec428f0f0800000000000000
+      internalID: -1083075240037221842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 384
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4874c2b6c588c40800000000000000
+      internalID: 5514759359089313006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769e12adf5e62a9d0800000000000000
+      internalID: -2764525863291459225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d693ffd999d2f630800000000000000
+      internalID: 3959466277322594000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240e06621f9c82080800000000000000
+      internalID: -9211891000218165182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead1f571fa3919aa0800000000000000
+      internalID: -6155976835418088018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 192
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e607bde98b650e0800000000000000
+      internalID: -2281433168790655464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4358aa4c632328c0800000000000000
+      internalID: -4025334693923105974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b3d6028734451d0800000000000000
+      internalID: -3362988838519751911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa07df38b0e3a9e0800000000000000
+      internalID: -1611197159718843663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5d518c5955fb290800000000000000
+      internalID: -7872479521824975394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireField_Effet_Dragon_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 640
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf68023e02cc1500800000000000000
+      internalID: 368382635762282439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 03a3b8121cbc2214db27246a4021be06
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

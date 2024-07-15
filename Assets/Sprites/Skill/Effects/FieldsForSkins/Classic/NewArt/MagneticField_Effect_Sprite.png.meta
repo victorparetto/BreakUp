@@ -1,0 +1,1076 @@
+fileFormatVersion: 2
+guid: f29ec4b345f31694ba6ae75d9cef8115
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4884174119119502999
+    second: MagneticField_Effect_Sprite_0
+  - first:
+      213: -1559700118184743699
+    second: MagneticField_Effect_Sprite_1
+  - first:
+      213: 726727608629258137
+    second: MagneticField_Effect_Sprite_2
+  - first:
+      213: 2847512852479434325
+    second: MagneticField_Effect_Sprite_3
+  - first:
+      213: -4309041032709349144
+    second: MagneticField_Effect_Sprite_4
+  - first:
+      213: -8008455119198798296
+    second: MagneticField_Effect_Sprite_5
+  - first:
+      213: -7411165732206114266
+    second: MagneticField_Effect_Sprite_6
+  - first:
+      213: -4896860635231427653
+    second: MagneticField_Effect_Sprite_7
+  - first:
+      213: -7286977899383175948
+    second: MagneticField_Effect_Sprite_8
+  - first:
+      213: -3060955284717503138
+    second: MagneticField_Effect_Sprite_9
+  - first:
+      213: -1155605001321080120
+    second: MagneticField_Effect_Sprite_10
+  - first:
+      213: -7753687020807719466
+    second: MagneticField_Effect_Sprite_11
+  - first:
+      213: 9221404141024055156
+    second: MagneticField_Effect_Sprite_12
+  - first:
+      213: -3683213692118639073
+    second: MagneticField_Effect_Sprite_13
+  - first:
+      213: 7200734898578226746
+    second: MagneticField_Effect_Sprite_14
+  - first:
+      213: 587505369146584919
+    second: MagneticField_Effect_Sprite_15
+  - first:
+      213: 6934837835342706637
+    second: MagneticField_Effect_Sprite_16
+  - first:
+      213: -2283452242234243117
+    second: MagneticField_Effect_Sprite_17
+  - first:
+      213: -8939340636010087286
+    second: MagneticField_Effect_Sprite_18
+  - first:
+      213: 2438452824309288598
+    second: MagneticField_Effect_Sprite_19
+  - first:
+      213: 428729316269588338
+    second: MagneticField_Effect_Sprite_20
+  - first:
+      213: 4975616020388595824
+    second: MagneticField_Effect_Sprite_21
+  - first:
+      213: 1729828169929659774
+    second: MagneticField_Effect_Sprite_22
+  - first:
+      213: -6432869858046567106
+    second: MagneticField_Effect_Sprite_23
+  - first:
+      213: -2484240441762005410
+    second: MagneticField_Effect_Sprite_24
+  - first:
+      213: 2497602054851840456
+    second: MagneticField_Effect_Sprite_25
+  - first:
+      213: 8865383511962816306
+    second: MagneticField_Effect_Sprite_26
+  - first:
+      213: -3182161276604862544
+    second: MagneticField_Effect_Sprite_27
+  - first:
+      213: 953048985440882090
+    second: MagneticField_Effect_Sprite_28
+  - first:
+      213: 3512967334725652528
+    second: MagneticField_Effect_Sprite_29
+  - first:
+      213: 9073104043801200744
+    second: MagneticField_Effect_Sprite_30
+  - first:
+      213: 2314760966544328059
+    second: MagneticField_Effect_Sprite_31
+  - first:
+      213: 3024338614271767991
+    second: MagneticField_Effect_Sprite_32
+  - first:
+      213: 7995640917354663238
+    second: MagneticField_Effect_Sprite_33
+  - first:
+      213: 4666164121830315391
+    second: MagneticField_Effect_Sprite_34
+  - first:
+      213: 4502184156760671937
+    second: MagneticField_Effect_Sprite_35
+  - first:
+      213: 5494023209864165931
+    second: MagneticField_Effect_Sprite_36
+  - first:
+      213: 5940527857250679061
+    second: MagneticField_Effect_Sprite_37
+  - first:
+      213: 7811464995935676746
+    second: MagneticField_Effect_Sprite_38
+  - first:
+      213: -1107609275905661665
+    second: MagneticField_Effect_Sprite_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1450
+        width: 151
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e364fdb7218c340800000000000000
+      internalID: 4884174119119502999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1440
+        width: 170
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deca6739105da5ae0800000000000000
+      internalID: -1559700118184743699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1435
+        width: 175
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997e0d0e8ead51a00800000000000000
+      internalID: 726727608629258137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2146
+        y: 1427
+        width: 188
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e55614ad5648720800000000000000
+      internalID: 2847512852479434325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 1412
+        width: 215
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0e6c2d2063334c0800000000000000
+      internalID: -4309041032709349144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1220
+        width: 215
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e3f7cef704cd090800000000000000
+      internalID: -8008455119198798296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1220
+        width: 216
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a8e485800462990800000000000000
+      internalID: -7411165732206114266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1220
+        width: 215
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ef6a623bda0cb0800000000000000
+      internalID: -4896860635231427653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 1218
+        width: 216
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4c42565347fda90800000000000000
+      internalID: -7286977899383175948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 2773
+        y: 1220
+        width: 215
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dfe0dd26d4585d0800000000000000
+      internalID: -3060955284717503138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1066
+        width: 255
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca979bbf5776ffe0800000000000000
+      internalID: -1155605001321080120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1057
+        width: 271
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5f2314cbe556490800000000000000
+      internalID: -7753687020807719466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1051
+        width: 276
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f0e0c853209ff70800000000000000
+      internalID: 9221404141024055156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 1043
+        width: 290
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ed96959a892ecc0800000000000000
+      internalID: -3683213692118639073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1027
+        width: 321
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e73873d362ee360800000000000000
+      internalID: 7200734898578226746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 834
+        width: 321
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fed9f350d372800800000000000000
+      internalID: 587505369146584919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 834
+        width: 320
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc77a86d44e7d3060800000000000000
+      internalID: 6934837835342706637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 834
+        width: 320
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d70f00b84c8f40e0800000000000000
+      internalID: -2283452242234243117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 834
+        width: 320
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c7760ed0511f380800000000000000
+      internalID: -8939340636010087286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 834
+        width: 320
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ec08a9cef17d120800000000000000
+      internalID: 2438452824309288598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 681
+        width: 382
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f7b09aa0723f500800000000000000
+      internalID: 428729316269588338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 671
+        width: 400
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078410a9860fc0540800000000000000
+      internalID: 4975616020388595824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 667
+        width: 404
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e751f173e85910810800000000000000
+      internalID: 1729828169929659774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2031
+        y: 659
+        width: 418
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d11d862fad9b6a0800000000000000
+      internalID: -6432869858046567106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 643
+        width: 448
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ebd14fa74368dd0800000000000000
+      internalID: -2484240441762005410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 451
+        width: 448
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9cab506d349a220800000000000000
+      internalID: 2497602054851840456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 451
+        width: 447
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f0624555b280b70800000000000000
+      internalID: 8865383511962816306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 451
+        width: 449
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfa6f1cd21b6d3d0800000000000000
+      internalID: -3182161276604862544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 451
+        width: 448
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad00c6b009e93d00800000000000000
+      internalID: 953048985440882090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 2654
+        y: 451
+        width: 448
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0309fddad2190c030800000000000000
+      internalID: 3512967334725652528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 298
+        width: 509
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8684ee47e042aed70800000000000000
+      internalID: 9073104043801200744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 288
+        width: 529
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7580deb5deaf1020800000000000000
+      internalID: 2314760966544328059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 284
+        width: 532
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b57a2032fb98f920800000000000000
+      internalID: 3024338614271767991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 274
+        width: 548
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dc0863d0936fe60800000000000000
+      internalID: 7995640917354663238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 259
+        width: 576
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f755e51eb8b81c040800000000000000
+      internalID: 4666164121830315391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 66
+        width: 575
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c68c1113a8fa7e30800000000000000
+      internalID: 4502184156760671937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 66
+        width: 575
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a74b33001be3c40800000000000000
+      internalID: 5494023209864165931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 66
+        width: 575
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5193db5ac9ef07250800000000000000
+      internalID: 5940527857250679061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 66
+        width: 575
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49e422e606e76c60800000000000000
+      internalID: 7811464995935676746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MagneticField_Effect_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 66
+        width: 576
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1527bf5b3bf0a0f0800000000000000
+      internalID: -1107609275905661665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 596e3b9987841d74283fab66db329987
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

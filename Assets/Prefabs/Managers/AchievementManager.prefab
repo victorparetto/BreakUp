@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7271561267970397893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 108912658259661832}
+  - component: {fileID: 8749599414706690265}
+  m_Layer: 0
+  m_Name: AchievementManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &108912658259661832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271561267970397893}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8749599414706690265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271561267970397893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 023fc3578cc864548bb0b5a6cad89f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  achievements:
+  - header: DESTROYER
+    number: 0
+    description: Destroy 1000 blocks with any ball
+    ID: DESTROYER
+    goal: 1000
+    prizeAmount: 100
+    unlocked: 0
+    claimed: 0
+  - header: ANNIHILATOR
+    number: 1
+    description: Destroy 10000 blocks with any ball
+    ID: ANNIHILATOR
+    goal: 10000
+    prizeAmount: 500
+    unlocked: 0
+    claimed: 0
+  - header: CONQUEROR
+    number: 2
+    description: Destroy 100000 blocks with any ball
+    ID: CONQUEROR
+    goal: 100000
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: A BUBBLY RUN
+    number: 3
+    description: Pick up every bubble skill (except death) in a single run
+    ID: BUBBLY_RUN
+    goal: 14
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: ITS TIME TO DU-DU-DUEL
+    number: 4
+    description: Use every card skill in a single run
+    ID: TIME_TO_DUEL
+    goal: 10
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: PRAISE THE RNG
+    number: 5
+    description: Pick up 100 bubbles on full random mode in a single run
+    ID: PRAISE_RNG
+    goal: 100
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: KEEPING THEM CLOSE
+    number: 6
+    description: Have 8 balls magneted to your paddle at the same time
+    ID: KEEPING_THEM_CLOSE
+    goal: 10
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: BULLET HELL
+    number: 7
+    description: Have 16 balls magneted to your paddle at the same time
+    ID: BULLET_HELL
+    goal: 18
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: SHOOTER?
+    number: 8
+    description: Destroy 1000 blocks with the shooting power up
+    ID: SHOOTER
+    goal: 1000
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: GOTTA GO FAST
+    number: 9
+    description: Grab a speed "+" bubble while already being at the max speed
+    ID: GOTTA_GO_FAST
+    goal: 2
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: TEENY TINY
+    number: 10
+    description: Grab a paddle size "-" bubble while already being the minimum size
+    ID: TEENY_TINY
+    goal: 2
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: GOING UP THE LADDER
+    number: 11
+    description: Reach floor 15 for the first time in climb mode
+    ID: UP_THE_LADDER
+    goal: 13
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: IT'S A LONG LADDER
+    number: 12
+    description: Reach floor 30 for the first time in climb mode
+    ID: LONG_LADDER
+    goal: 28
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: END OF THE LADDER
+    number: 13
+    description: Reach floor 50 for the first time in climb mode!
+    ID: END_OF_LADDER
+    goal: 48
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: A CLASSIC BEGINNING
+    number: 14
+    description: Reach floor 15 for the first time in classic mode
+    ID: CLASSIC_BEGINNING
+    goal: 13
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: A CLASSIC PROGRESS
+    number: 15
+    description: Reach floor 30 for the first time in classic mode
+    ID: CLASSIC_PROGRESS
+    goal: 28
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: A CLASSIC FINALE
+    number: 16
+    description: Reach floor 50 for the first time in classic mode!
+    ID: CLASSIC_FINALE
+    goal: 48
+    prizeAmount: 1000
+    unlocked: 0
+    claimed: 0
+  - header: GETTING STARTED
+    number: 17
+    description: Play any game mode for the first time
+    ID: GETTING_STARTED
+    goal: 1
+    prizeAmount: 500
+    unlocked: 0
+    claimed: 0
+  - header: BOUNCY
+    number: 18
+    description: Bounce a ball off the paddle 25 times without dropping it and in
+      the same floor
+    ID: BOUNCY
+    goal: 25
+    prizeAmount: 1200
+    unlocked: 0
+    claimed: 0
+  - header: THE FLOOR IS LAVA
+    number: 19
+    description: Bounce a ball off the paddle 50 times without dropping it and in
+      the same floor
+    ID: THE_FLOOR_IS_LAVA
+    goal: 50
+    prizeAmount: 2500
+    unlocked: 0
+    claimed: 0
+  - header: HELPFUL ADS
+    number: 20
+    description: Watch 15 ads to increase your coins earned at the end of the run!
+    ID: HELPFUL_ADS
+    goal: 15
+    prizeAmount: 2000
+    unlocked: 0
+    claimed: 0
+  - header: NOT ENOUGH ADS
+    number: 21
+    description: Watch 50 ads to increase your coins earned at the end of the run!
+    ID: NOT_ENOUGH_ADS
+    goal: 50
+    prizeAmount: 5000
+    unlocked: 0
+    claimed: 0
+  - header: THE FIVE OF HEARTS
+    number: 22
+    description: Get to 5 hearts on any mode
+    ID: THE_FIVE_OF_HEARTS
+    goal: 5
+    prizeAmount: 5555
+    unlocked: 0
+    claimed: 0
+  - header: THE PERFECT RUN
+    number: 23
+    description: Complete any game mode without dying a single time
+    ID: THE_PERFECT_RUN
+    goal: 0
+    prizeAmount: 10000
+    unlocked: 0
+    claimed: 0
+  nb: {fileID: 0}
