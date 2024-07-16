@@ -9,13 +9,13 @@ public class GameManager : MonoBehaviour
     ShootPowerUp spu;
     UIControl uic;
     BackgroundScrolling bgScrolling;
-    EndOfRunScoreAnimation ersa;    
+    EndOfRunScoreAnimation ersa;
 
     public float wallLightIntensity = 2.5f;
     [SerializeField] Material wallMaterial;
-	public Material backgroundMaterial;
+    public Material backgroundMaterial;
 
-	[HideInInspector] public Vector2 placeToHidePooled = new Vector2(-9f, 1f);
+    [HideInInspector] public Vector2 placeToHidePooled = new Vector2(-9f, 1f);
 
     [Header("Important Bools")]
     [SerializeField] bool resetSingletonOnStart = false;
@@ -54,7 +54,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject topWall = null;
     [SerializeField] GameObject topTrigger = null;
 
-    public float levelTimerForClassicMode = 0;    
+    public float levelTimerForClassicMode = 0;
     public float speedIncreaseTimer = 0;
     private float increaseSpeedAfterTimer = 20f;
 
@@ -140,7 +140,7 @@ public class GameManager : MonoBehaviour
     {
         Application.targetFrameRate = 60;
 
-        ersa = GetComponent<EndOfRunScoreAnimation>();        
+        ersa = GetComponent<EndOfRunScoreAnimation>();
 
         if (resetSingletonOnStart) ResetSavedVariables();
 
@@ -155,7 +155,7 @@ public class GameManager : MonoBehaviour
         uic = GameObject.FindGameObjectWithTag("UIManager").GetComponent<UIControl>();
 
         wallMaterial.SetColor("_MainColor", Color.white * wallLightIntensity);
-		backgroundMaterial.color = new Color(29f/255, 29f/255, 29f/255);
+        backgroundMaterial.color = new Color(29f / 255, 29f / 255, 29f / 255);
         levelChangePos = Vector3.up * levelChangePosOffset;
 
 
@@ -181,7 +181,7 @@ public class GameManager : MonoBehaviour
             }
         }
 
-        if (isClassicMode) 
+        if (isClassicMode)
             InstantiateLevelsForClassicMode();
         else
             AddRandomLevelsToLevels();
@@ -228,7 +228,7 @@ public class GameManager : MonoBehaviour
         {
             buildingInterval = Mathf.Lerp(maxInterval, minInterval, t);
             t += Time.deltaTime * 0.7f;
-            if(t >= 1)
+            if (t >= 1)
             {
                 t = 1;
                 buildingInterval = minInterval;
@@ -258,7 +258,7 @@ public class GameManager : MonoBehaviour
         {
             currentLaunchBallTimer += Time.deltaTime;
 
-            if(currentLaunchBallTimer >= timerToLaunchBall)
+            if (currentLaunchBallTimer >= timerToLaunchBall)
             {
                 canLaunchBall = true;
                 startLaunchBallTimer = false;
@@ -272,9 +272,9 @@ public class GameManager : MonoBehaviour
             levelTimerForClassicMode += Time.deltaTime;
         }
 
-        if(speedIncreaseTimer >= increaseSpeedAfterTimer)
+        if (speedIncreaseTimer >= increaseSpeedAfterTimer)
         {
-            if(currentBallVelocity < MaxBallVelocity)
+            if (currentBallVelocity < MaxBallVelocity)
             {
                 currentBallVelocity++;
             }
@@ -292,7 +292,7 @@ public class GameManager : MonoBehaviour
                 }
                 ChangeMainBall(ballScripts[0]);
                 EndLevel(false);
-                currentLevel += 1;                
+                currentLevel += 1;
                 BuildNextLevel();
             }
         }
@@ -342,7 +342,7 @@ public class GameManager : MonoBehaviour
             pum.currentActiveBubbles[i].SetActive(false);
         }
 
-        bubbleScoreMultiplier = 100;        
+        bubbleScoreMultiplier = 100;
 
         pum.currentActiveBubbles.Clear();
 
@@ -367,11 +367,11 @@ public class GameManager : MonoBehaviour
         }
 
         //Unlockables
-        if(currentLevel == 14)
+        if (currentLevel == 14)
         {
             UnlockableManager.instance.CompletedUnlockable(0, "Floor 15 beated");
         }
-        else if(currentLevel == 29)
+        else if (currentLevel == 29)
         {
             UnlockableManager.instance.CompletedUnlockable(1, "Floor 30 beated");
         }
@@ -385,7 +385,7 @@ public class GameManager : MonoBehaviour
             DestroyCurrentBlocks();
             for (int i = 0; i < currentBlocksBreakableInteraction.Count; i++)
             {
-                if(currentBlocksBreakableInteraction[i] != null)
+                if (currentBlocksBreakableInteraction[i] != null)
                 {
                     AddScore(200);
                 }
@@ -410,7 +410,7 @@ public class GameManager : MonoBehaviour
 
         AchievementManager.instance.VerifyAchievementProgress(0, "DESTROYER", AchievementDataManager.Instance.blocksDestroyed);
         AchievementManager.instance.VerifyAchievementProgress(1, "ANNIHILATOR", AchievementDataManager.Instance.blocksDestroyed);
-        AchievementManager.instance.VerifyAchievementProgress(2, "CONQUEROR", AchievementDataManager.Instance.blocksDestroyed);                
+        AchievementManager.instance.VerifyAchievementProgress(2, "CONQUEROR", AchievementDataManager.Instance.blocksDestroyed);
     }
 
     private void ClearBlockLists()
@@ -486,7 +486,7 @@ public class GameManager : MonoBehaviour
             else if (i == currentBlocksBreakableInteraction.Count - 1)
             {
                 return true;
-            }       
+            }
         }
 
         return false;
@@ -505,7 +505,7 @@ public class GameManager : MonoBehaviour
         Singleton.Instance.runMoney = moneyToSave;
 
         if (currentLevel > 0)
-        {            
+        {
             if (currentLevel % chooseCardEveryXLevel != 0)
                 SaveSingletonVariables();
             else
@@ -514,7 +514,7 @@ public class GameManager : MonoBehaviour
                 {
                     if (pum.FreeCardSlotAvailable() || pum.powerUpsAreRandom)
                     {
-                        if(Singleton.Instance.saveWasLoaded_Temp) pum.loadTheSameChoice = true;
+                        if (Singleton.Instance.saveWasLoaded_Temp) pum.loadTheSameChoice = true;
                         pum.isChoiceAtLevelStart = true;
                         StartCoroutine(pum.ShowCardChooseSelection());
                     }
@@ -529,7 +529,7 @@ public class GameManager : MonoBehaviour
 
             if (currentLevel % increaseSpeedEveryXLevel == 0)
             {
-                if(!Singleton.Instance.saveWasLoaded_Temp) startBallVelocity += 1;
+                if (!Singleton.Instance.saveWasLoaded_Temp) startBallVelocity += 1;
             }
         }
 
@@ -643,7 +643,7 @@ public class GameManager : MonoBehaviour
             //}
             if (currentBlocksBreakableInteraction[i] == tempBI) currentBlocksBreakableInteraction[i].isTheLastBlock = true;
             currentBlocksBreakableInteraction[i].isFallingToPlace = true;
-            if(!currentBlocksBreakableInteraction[i].isDestroyed) yield return new WaitForSeconds(buildingInterval);
+            if (!currentBlocksBreakableInteraction[i].isDestroyed) yield return new WaitForSeconds(buildingInterval);
         }
 
         for (int i = 0; i < currentUnbreakableBlocksScript.Count; i++)
@@ -674,16 +674,16 @@ public class GameManager : MonoBehaviour
 
     public void EndOfLevelBuilding()
     {
-        if (pum.chooseDirectionIsActive) 
+        if (pum.chooseDirectionIsActive)
             ballIsAvailable = false;
         else
             ballIsAvailable = true;
-        if(Singleton.Instance.chooseDirectionPowerUpStillShooting) 
+        if (Singleton.Instance.chooseDirectionPowerUpStillShooting)
         {
             Vector2 tempV2 = new Vector2(Singleton.Instance.lastDirectionX, Singleton.Instance.lastDirectionY);
             StartCoroutine(pum.cd.ShootBallsWithInterval(tempV2, currentBallVelocity, pum.cd.launchInterval));
         }
-        if(loadedBullets.Count > 0)
+        if (loadedBullets.Count > 0)
         {
             ActivateLoadedBullets();
         }
@@ -742,7 +742,7 @@ public class GameManager : MonoBehaviour
                 {
                     if (tempBI.isDestroyed)
                     {
-                        EndOfLevelBuilding();                        
+                        EndOfLevelBuilding();
                     }
                     else
                     {
@@ -785,8 +785,8 @@ public class GameManager : MonoBehaviour
         ballGos.Clear();
         ballScripts.Clear();
         ballRb2ds.Clear();
-    } 
-    
+    }
+
     public void AddBallToLists(GameObject ball, Rigidbody2D ballRb2d, Ball ballScript)
     {
         ballGos.Add(ball);
@@ -842,7 +842,7 @@ public class GameManager : MonoBehaviour
     {
         inwardsParticle.transform.parent = paddleGO.transform;
         inwardsParticle.transform.localPosition = mainBall.startLocalPos;
-        inwardsParticle.SetActive(true);        
+        inwardsParticle.SetActive(true);
     }
 
     public void ShowInwardsParticles(Vector2 pos)
@@ -854,7 +854,7 @@ public class GameManager : MonoBehaviour
 
     public void ResetPowerUpsState(bool ballDied)
     {
-        if(ballDied) ballIsAvailable = true;
+        if (ballDied) ballIsAvailable = true;
         pum.EndChooseDirection();
         mainBall.currentPhasingsLeft = 0; //other variables reset on balls Update()
         mainBall.scoreMultiplier = 0;
@@ -908,7 +908,7 @@ public class GameManager : MonoBehaviour
         print("Saving Singleton Variables...");
         Singleton.Instance.hasSavedData = true;
         Singleton.Instance.runMoney = currentMoney;
-        if(useSavedMoneyInstead) { Singleton.Instance.runMoney = moneyToSave; useSavedMoneyInstead = false; }
+        if (useSavedMoneyInstead) { Singleton.Instance.runMoney = moneyToSave; useSavedMoneyInstead = false; }
         Singleton.Instance.currentLevel = currentLevel;
         Singleton.Instance.currentHealth = uic.GetCurrentHealth();
         Singleton.Instance.currentScore = score;
@@ -921,11 +921,11 @@ public class GameManager : MonoBehaviour
         {
             Singleton.Instance.currentCards[i] = pum.cardSlotIndex[i];
             Singleton.Instance.currentCardsGolden[i] = pum.slotIndexIsGold[i];
-           if(pum.randomCardChooseIntIndexes.Count > 0) Singleton.Instance.currentCardChoice[i] = pum.randomCardChooseIntIndexes[i];
+            if (pum.randomCardChooseIntIndexes.Count > 0) Singleton.Instance.currentCardChoice[i] = pum.randomCardChooseIntIndexes[i];
         }
 
         Singleton.Instance.currentLevelEnabledBlocks.Clear();
-        
+
         for (int i = 0; i < currentBlocksBreakableInteraction.Count; i++)
         {
             Singleton.Instance.currentLevelEnabledBlocks.Add(true);
@@ -1027,7 +1027,7 @@ public class GameManager : MonoBehaviour
                 pum.cardSlotIndex[i] = Singleton.Instance.currentCards[i];
                 pum.slotIndexIsGold[i] = Singleton.Instance.currentCardsGolden[i];
                 pum.randomCardChooseIntIndexes.Add(Singleton.Instance.currentCardChoice[i]);
-            }            
+            }
 
             pum.LoadOwnedCards();
         }
@@ -1062,7 +1062,7 @@ public class GameManager : MonoBehaviour
         {
             mainBall.hasLaunched = Singleton.Instance.ballHasLaunched[0];
             if (mainBall.hasLaunched)
-            {                
+            {
                 mainBall.transform.parent = null;
                 mainBall.transform.position = new Vector3(Singleton.Instance.ballPositionX[0], Singleton.Instance.ballPositionY[0]);
                 mainBall.ballIsLoadingVelocity = true;
@@ -1077,7 +1077,7 @@ public class GameManager : MonoBehaviour
                     mainBall.transform.position = new Vector3(Singleton.Instance.ballPositionX[0], Singleton.Instance.ballPositionY[0]);
                 }
                 else
-                {                    
+                {
                     mainBall.transform.parent = paddleGO.transform;
                     mainBall.transform.localPosition = new Vector3(Singleton.Instance.ballPositionX[0], Singleton.Instance.ballPositionY[0]);
                 }
@@ -1089,7 +1089,7 @@ public class GameManager : MonoBehaviour
 
             GameObject tempBallGO;
             Rigidbody2D tempBallRb2d;
-            Ball tempBallScript;            
+            Ball tempBallScript;
 
             for (int i = 1; i < Singleton.Instance.amountOfBalls; i++) // i starts at 1 cause mainball is already instantiated
             {
@@ -1118,7 +1118,7 @@ public class GameManager : MonoBehaviour
                     {
                         if (Singleton.Instance.chooseDirectionPowerUpStillShooting)
                         {
-                            if(Singleton.Instance.ballVelocityX[i] == 0 && Singleton.Instance.ballVelocityY[i] == 0)
+                            if (Singleton.Instance.ballVelocityX[i] == 0 && Singleton.Instance.ballVelocityY[i] == 0)
                             {
                                 pum.cd.AddLoadedBallsToList(tempBallRb2d, tempBallScript);
 
@@ -1215,12 +1215,12 @@ public class GameManager : MonoBehaviour
         SetEndOfGameCoinMultiplier();
 
         scoreBeforeEndBonuses = score;
-        score += HealthBonusScore() + GoldCardBonusScore() + ActivatedCardBonusScore() + BubblesPickedBonusScore() + TimerBonusScore() + CompletedRunBonusScore();        
+        score += HealthBonusScore() + GoldCardBonusScore() + ActivatedCardBonusScore() + BubblesPickedBonusScore() + TimerBonusScore() + CompletedRunBonusScore();
 
         if (isClassicMode)
         {
             if (score > MenuDataManager.Instance.highestClassicScore) MenuDataManager.Instance.highestClassicScore = score;
-            if(CloudOnce.Cloud.IsSignedIn) CloudOnceServices.instance.SubmitScoreToClassicLeaderboard(score);
+            if (CloudOnce.Cloud.IsSignedIn) CloudOnceServices.instance.SubmitScoreToClassicLeaderboard(score);
         }
         else
         {
@@ -1238,7 +1238,7 @@ public class GameManager : MonoBehaviour
 
         mp.gameObject.SetActive(false);
         mainBall.gameObject.SetActive(false);
-        levels[currentLevel].SetActive(false); 
+        levels[currentLevel].SetActive(false);
 
         uic.endOfGamePanel.SetActive(true);
 
@@ -1263,7 +1263,7 @@ public class GameManager : MonoBehaviour
 
     public void SetFinalScoreText()
     {
-        if(scoreBeforeEndBonuses < 1000000)
+        if (scoreBeforeEndBonuses < 1000000)
         {
             ersa.finalScoreText.text = "0" + scoreBeforeEndBonuses.ToString();
         }
@@ -1271,7 +1271,7 @@ public class GameManager : MonoBehaviour
         {
             ersa.finalScoreText.text = scoreBeforeEndBonuses.ToString();
         }
-        
+
         ersa.finalScoreText.gameObject.SetActive(true);
     }
 
@@ -1291,6 +1291,7 @@ public class GameManager : MonoBehaviour
 
     IEnumerator ShowAddingScore()
     {
+        print("STARTING");
         scoreAnimationIsPlaying = true;
         float t = 0;
         float a = 0;
@@ -1298,12 +1299,13 @@ public class GameManager : MonoBehaviour
         int tempScoreToAdd = scoreToAddAnimation;
         int tempMiddleScore = middleShowScoreAnimation;
         uic.ChangeShowScoreCGAlpha(0);
-
-        while(t <= 1)
+        uic.ActivateScoreAnimation();
+        print("Started");
+        while (t <= 1)
         {
             uic.ChangeShowScoreCGAlpha(a);
-            scoreToAddAnimation = (int) Mathf.Lerp(tempScoreToAdd, 0, t);
-            middleShowScoreAnimation = (int) Mathf.Lerp(tempMiddleScore, score, t);
+            scoreToAddAnimation = (int)Mathf.Lerp(tempScoreToAdd, 0, t);
+            middleShowScoreAnimation = (int)Mathf.Lerp(tempMiddleScore, score, t);
 
             t += Time.deltaTime;
             a += Time.deltaTime * 1.8f;
@@ -1312,14 +1314,15 @@ public class GameManager : MonoBehaviour
 
             yield return null;
         }
-
+        print("Finished");
+        uic.IdleScoreAnimation();
         scoreToAddAnimation = 0;
         middleShowScoreAnimation = score;
         uic.SetShowScoreVariablesForAnimation();
 
         if (gameEnded)
         {
-            if(currentLevel >= 49)
+            if (currentLevel >= 49)
             {
                 runWasCompleted = true;
             }
@@ -1331,7 +1334,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        while(t >= 0)
+        while (t >= 0)
         {
             t -= Time.deltaTime;
             uic.ChangeShowScoreCGAlpha(t);
@@ -1368,7 +1371,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 1; i <= uic.GetCurrentHealth(); i++)
         {
-            tempBonus += 7500;    
+            tempBonus += 7500;
         }
         print("Health Bonus was: " + tempBonus + " for " + uic.GetCurrentHealth() + " health");
 
@@ -1471,7 +1474,7 @@ public class GameManager : MonoBehaviour
                 tempText = "final score";
         }
 
-            return tempText;
+        return tempText;
     }
 
     public void SetEndOfGameCoinMultiplier()
@@ -1577,10 +1580,10 @@ public class GameManager : MonoBehaviour
             {
                 for (int j = 0; j < level0.Count; j++)
                 {
-                    if(Singleton.Instance.levelsOrder[i] == level0[j].levelID)
+                    if (Singleton.Instance.levelsOrder[i] == level0[j].levelID)
                     {
                         tempGO = Instantiate(level0[j].levelPrefab);
-                        tempGO.SetActive(false);                        
+                        tempGO.SetActive(false);
                         levels.Add(tempGO);
                         break;
                     }
@@ -1611,10 +1614,10 @@ public class GameManager : MonoBehaviour
                         break;
                     }
                 }
-            }            
+            }
             else if (i < 29)
             {
-                
+
                 for (int j = 0; j < level21To30.Count; j++)
                 {
                     if (Singleton.Instance.levelsOrder[i] == level21To30[j].levelID)
@@ -1693,9 +1696,9 @@ public class GameManager : MonoBehaviour
 
     public void UnlockedPaddleColorBasedOnIndex()
     {
-        if(MenuDataManager.Instance.currentPaddleIndex == 11)
+        if (MenuDataManager.Instance.currentPaddleIndex == 11)
             UnlockableManager.instance.CompletedUnlockable(3, "Gold Paddle-Inator Unlocked");
-        else if(MenuDataManager.Instance.currentPaddleIndex == 12)
+        else if (MenuDataManager.Instance.currentPaddleIndex == 12)
             UnlockableManager.instance.CompletedUnlockable(4, "Gold TwinDragon Unlocked");
         else if (MenuDataManager.Instance.currentPaddleIndex == 13)
             UnlockableManager.instance.CompletedUnlockable(5, "Gold BL-CK Unlocked");

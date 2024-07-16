@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class UIControl : MonoBehaviour
 {
-	[SerializeField] GameManager gm;
+    [SerializeField] GameManager gm;
 
     [SerializeField] int health;
     float miliseconds;
@@ -25,9 +25,9 @@ public class UIControl : MonoBehaviour
     //Pause Variables
     [Header("UI Buttons Variables")]
     [SerializeField] GameObject pausePanel = null;
-	[SerializeField] Image pause_Button;
-	[SerializeField] Sprite pause_Sprite;
-	[SerializeField] Sprite unpause_Sprite;
+    [SerializeField] Image pause_Button;
+    [SerializeField] Sprite pause_Sprite;
+    [SerializeField] Sprite unpause_Sprite;
     [SerializeField] Animator settingsExpandableAnimator;
 
     //Confirmation Panel Variables
@@ -43,6 +43,7 @@ public class UIControl : MonoBehaviour
     [SerializeField] GameObject showScorePanel;
     [SerializeField] TMP_Text scoreMiddleText;
     [SerializeField] TMP_Text scoreToAddText;
+    [SerializeField] Animator scoreMiddleAnim;
     [SerializeField] CanvasGroup showScoreCG;
     public GameObject endOfGamePanel;
 
@@ -76,7 +77,7 @@ public class UIControl : MonoBehaviour
             print("App is Paused");
             gm.gameIsPaused = false;
             PauseButton();
-        }            
+        }
 #endif
     }
 
@@ -130,7 +131,7 @@ public class UIControl : MonoBehaviour
 
         textHealth.text = ":" + health.ToString();
 
-        if(health < 0)
+        if (health < 0)
         {
             textHealth.text = "--";
         }
@@ -177,24 +178,24 @@ public class UIControl : MonoBehaviour
         minutes = timer[2];
     }
 
-	void CalculatingTimer()
-	{
-		if(!gm.gameIsPaused && !gm.checkForDestroyedBlocks && !gm.isBuildingLevel && gm.ballIsAvailable && gm.gameStarted) miliseconds += Time.deltaTime * 100;
+    void CalculatingTimer()
+    {
+        if (!gm.gameIsPaused && !gm.checkForDestroyedBlocks && !gm.isBuildingLevel && gm.ballIsAvailable && gm.gameStarted) miliseconds += Time.deltaTime * 100;
 
-		if (miliseconds >= 100)
-		{
-			seconds++;
-			miliseconds = 0;
-		}
+        if (miliseconds >= 100)
+        {
+            seconds++;
+            miliseconds = 0;
+        }
 
-		if (seconds >= 60)
-		{
-			minutes++;
-			seconds = 0;
-		}
-		//Debug.Log(miliseconds);
-		textTimer.text = minutes.ToString("00") + ":" + seconds.ToString("00") + ":" + ((int)miliseconds).ToString("00");
-	}
+        if (seconds >= 60)
+        {
+            minutes++;
+            seconds = 0;
+        }
+        //Debug.Log(miliseconds);
+        textTimer.text = minutes.ToString("00") + ":" + seconds.ToString("00") + ":" + ((int)miliseconds).ToString("00");
+    }
 
     //Buttons Functionality Methods
     public void PauseButton()
@@ -227,9 +228,9 @@ public class UIControl : MonoBehaviour
     }
 
     public void SetTimeScale(bool active)
-    {        
+    {
         if (active)
-        {            
+        {
             gm.gameIsPaused = false;
             if (gm.isChoosingPowerUp) return;
             Time.timeScale = 1;
@@ -295,12 +296,23 @@ public class UIControl : MonoBehaviour
     public void SetShowScoreVariablesForAnimation()
     {
         scoreToAddText.text = "+0" + gm.scoreToAddAnimation.ToString();
-        scoreMiddleText.text = "0"+ gm.middleShowScoreAnimation.ToString();        
+        scoreMiddleText.text = "0" + gm.middleShowScoreAnimation.ToString();
     }
 
     public void ActivateScoreShowPanel(bool activate)
     {
         showScorePanel.SetActive(activate);
+    }
+
+    public void ActivateScoreAnimation()
+    {
+        scoreMiddleAnim.SetBool("isIdle", false);
+        scoreMiddleAnim.SetTrigger("InfiniteBump");
+    }
+
+    public void IdleScoreAnimation()
+    {
+        scoreMiddleAnim.SetBool("isIdle", true);
     }
 
     public void ChangeShowScoreCGAlpha(float t)

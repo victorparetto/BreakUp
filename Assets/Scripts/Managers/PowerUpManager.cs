@@ -415,7 +415,7 @@ public class PowerUpManager : MonoBehaviour
                         cardsChooseIndexScript[randomCardChooseIntIndexes[i]].transform.GetChild(0).gameObject.SetActive(true);
                         cardsChooseIndexScript[randomCardChooseIntIndexes[i]].transform.GetChild(1).gameObject.SetActive(true);
                         cardsChooseIndexScript[randomCardChooseIntIndexes[i]].ActivateColorParticles(false);
-                    }   
+                    }
                 }
                 //yield return null;
             }
@@ -462,7 +462,12 @@ public class PowerUpManager : MonoBehaviour
         if (isChoiceAtLevelStart) { Singleton.Instance.levelCardWasChosen = true; isChoiceAtLevelStart = false; }
         if (Singleton.Instance.leftBeforeChoosing) Singleton.Instance.leftBeforeChoosing = false;
         Time.timeScale = 1;
-        if (gm.scoreAnimationIsPlaying) uic.ActivateScoreShowPanel(true);
+        if (gm.scoreAnimationIsPlaying)
+        {
+            uic.ActivateScoreShowPanel(true);
+            uic.ActivateScoreAnimation();
+        }
+
         //gm.gameIsPaused = false;
         PowerUpIndex tempPUI = hit.collider.GetComponentInChildren<PowerUpIndex>();
         tempPUI.ActivateColorParticles(false);
@@ -476,13 +481,13 @@ public class PowerUpManager : MonoBehaviour
             SetCardChooseParticlesColor(cardSlotIndex[repeatedChosenIndex], hit.collider.transform.GetChild(0).position);
             slotIndexIsGold[repeatedChosenIndex] = true;
 
-            StartCoroutine(PlayGoldCardAnimation(tempPUI, powerUpCards[cardSlotIndex[repeatedChosenIndex]], 
+            StartCoroutine(PlayGoldCardAnimation(tempPUI, powerUpCards[cardSlotIndex[repeatedChosenIndex]],
                                                 tempPUI.goldPowerUpForSlot.transform, cardSlotTransforms[repeatedChosenIndex]));
 
             gm.totalGoldenCardsObtained++;
             gm.AddScore(5000 + (10000 * gm.goldCardMultiplier));
             gm.goldCardMultiplier += 2;
-            HideChooseCards();            
+            HideChooseCards();
             CardChooseSetActiveAll(false);
             blackBG.SetActive(false);
             return;
@@ -522,13 +527,13 @@ public class PowerUpManager : MonoBehaviour
             CheckIfCardSlotIsActive();
             CardChooseSetActiveAll(false);
             blackBG.SetActive(false);
-            if(!gm.IsGamePausedOutsidePauseMenu()) gm.SetLaunchBallTimer();
+            if (!gm.IsGamePausedOutsidePauseMenu()) gm.SetLaunchBallTimer();
         }
 
         HideChooseCards();
         //CheckIfCardSlotIsActive();
         CardChooseSetActiveAll(false);
-        blackBG.SetActive(false);        
+        blackBG.SetActive(false);
     }
 
     IEnumerator PlayChosenCardAnimation(PowerUpIndex chosenCard, GameObject powerUpCard)
@@ -587,13 +592,13 @@ public class PowerUpManager : MonoBehaviour
         HideCard(chosenCard);
 
         Quaternion tempPowerUpRot = transform.rotation;
-        while(t < 1)
+        while (t < 1)
         {
             powerUpCard.Rotate(0f, 36f, 0f);
 
             t += Time.unscaledDeltaTime * chosenCardAnimSpeed * 2;
 
-            if(t >= 0.6f)
+            if (t >= 0.6f)
             {
                 gm.goldCardsChooseParticle.transform.position = target;
                 gm.goldCardsChooseParticle.SetActive(true);
@@ -607,7 +612,7 @@ public class PowerUpManager : MonoBehaviour
 
         goldCard.parent = cardSlotToGo;
         goldCard.position = target;
-        goldCard.gameObject.SetActive(true);       
+        goldCard.gameObject.SetActive(true);
 
         yield return new WaitForSeconds(0.5f);
 
@@ -628,11 +633,11 @@ public class PowerUpManager : MonoBehaviour
 
     public void ActivateCardPowerUp(int powerUpIndex, int slotNumber, Transform t)
     {
-            if (powerUpIndex > powerUpCards.Length - 1)
-            {
-                print("The index doesn't match the amount of cards");
-                return;
-            }
+        if (powerUpIndex > powerUpCards.Length - 1)
+        {
+            print("The index doesn't match the amount of cards");
+            return;
+        }
 
         switch (powerUpIndex)
         {
@@ -689,7 +694,7 @@ public class PowerUpManager : MonoBehaviour
                     if (gm.currentBallVelocity == gm.MinBallVelocity) ran = 0;
                     else if (gm.currentBallVelocity == gm.MaxBallVelocity) ran = 1;
 
-                    if(ran == 0) IncreaseOrDecreaseBallSpeed(true);
+                    if (ran == 0) IncreaseOrDecreaseBallSpeed(true);
                     else IncreaseOrDecreaseBallSpeed(false);
 
                     break;
@@ -843,14 +848,14 @@ public class PowerUpManager : MonoBehaviour
                         ballMaxSpeedCounter++;
                         AchievementManager.instance.VerifyAchievementProgress(9, "GOTTA_GO_FAST", ballMaxSpeedCounter);
                     }
-                        
+
                     break;
                 }
             case 7:
                 {
                     if (!gm.gameStarted) return;
                     IncreaseOrDecreaseBallSpeed(false);
-                    
+
                     break;
                 }
             case 8:
@@ -980,7 +985,7 @@ public class PowerUpManager : MonoBehaviour
         int tempBallScriptsCount = gm.ballScripts.Count;
         for (int i = 0; i < tempBallScriptsCount; i++)
         {
-            if(gm.ballScripts[i] != null)
+            if (gm.ballScripts[i] != null)
             {
                 if (!gm.ballScripts[i].hasLaunched)
                 {
@@ -1001,7 +1006,7 @@ public class PowerUpManager : MonoBehaviour
     {
         for (int i = 0; i < cardChooseSlotTransforms.Length; i++)
         {
-            if(cardChooseSlotTransforms[i].childCount > 0)
+            if (cardChooseSlotTransforms[i].childCount > 0)
                 HideCard(cardChooseSlotTransforms[i].GetChild(0));
         }
     }
@@ -1063,7 +1068,7 @@ public class PowerUpManager : MonoBehaviour
 
         for (int i = 0; i < cardSlotIndex.Length; i++)
         {
-            if(cardSlotIndex[i] < 99)
+            if (cardSlotIndex[i] < 99)
             {
                 if (cardsChooseIndexScript[cardSlotIndex[i]].goldPowerUpForSlot == null)
                 {
@@ -1071,7 +1076,7 @@ public class PowerUpManager : MonoBehaviour
                     print("Card " + cardsChooseIndexScript[cardSlotIndex[i]].name + " was Removed");
                 }
                 else
-                { 
+                {
                     if (slotIndexIsGold[i])
                     {
                         tempCardsChooseIndexScript.Remove(cardsChooseIndexScript[cardSlotIndex[i]]);
@@ -1086,7 +1091,7 @@ public class PowerUpManager : MonoBehaviour
     {
         for (int i = 0; i < cardSlotIndex.Length; i++)
         {
-            if(cardSlotIndex[i] == index)
+            if (cardSlotIndex[i] == index)
             {
                 return repeatedChosenIndex = i;
             }
@@ -1117,7 +1122,7 @@ public class PowerUpManager : MonoBehaviour
             {
                 ballTempGo = PoolManager.current.GetPooledGameObject(PoolManager.current.ballPool);
                 if (ballTempGo == null) return;
-                
+
                 Rigidbody2D tempRb2d = ballTempGo.GetComponent<Rigidbody2D>();
                 Ball tempBallScript = ballTempGo.GetComponent<Ball>();
                 tempBallScript.timesBouncedOffPlayer = 0;
@@ -1156,7 +1161,7 @@ public class PowerUpManager : MonoBehaviour
                         if (tempRb2d.velocity == Vector2.zero || tempRb2d.velocity.x == 0) tempBallScript.BallRandomImpulse(-8f, 8f);
                     }
                 }
-                            
+
                 gm.AddBallToLists(ballTempGo, tempRb2d, tempBallScript);
             }
         }
@@ -1268,9 +1273,9 @@ public class PowerUpManager : MonoBehaviour
         gm.mp.magnetChildGO.SetActive(true);
         gm.mp.magnetAnim.SetInteger("currentSize", currentPaddleSize);
 
-		//New line added - Shinno
-		if(gm.mp.ExtraGlow)gm.mp.extra_glowRenderer.SetActive(true);
-		//
+        //New line added - Shinno
+        if (gm.mp.ExtraGlow) gm.mp.extra_glowRenderer.SetActive(true);
+        //
     }
 
     public void IncreaseOrDecreaseBallSpeed(bool increase)
@@ -1361,7 +1366,7 @@ public class PowerUpManager : MonoBehaviour
         colorIndex = GetBlockColorIndex(levelBlockColors[tempRan]);
         bubbleBlockSR.sprite = bubbleBlockPowerUpSprites[colorIndex];
 
-        while(counter < 6)
+        while (counter < 6)
         {
             if (!tempBool) bubbleBlockSR.color = new Color(bubbleBlockSR.color.r, bubbleBlockSR.color.g, bubbleBlockSR.color.b, 0.5f);
             else bubbleBlockSR.color = new Color(bubbleBlockSR.color.r, bubbleBlockSR.color.g, bubbleBlockSR.color.b, 1f);
@@ -1409,7 +1414,7 @@ public class PowerUpManager : MonoBehaviour
     public int GetChosenCardIndex(PowerUpIndex puIndex)
     {
         return puIndex.index;
-    }  
+    }
 
     public void SetCardSlotsColliders()
     {
@@ -1443,7 +1448,7 @@ public class PowerUpManager : MonoBehaviour
     {
         for (int i = 0; i < cardSlotTransforms.Length; i++)
         {
-            if(cardSlotTransforms[i].childCount > 0)
+            if (cardSlotTransforms[i].childCount > 0)
             {
                 cardSlotColliders[i].enabled = true;
             }
@@ -1459,8 +1464,8 @@ public class PowerUpManager : MonoBehaviour
         for (int i = 0; i < cardChooseSlotTransforms.Length; i++)
         {
             cardChooseSlotTransforms[i].gameObject.SetActive(enable);
-        }        
-    }      
+        }
+    }
 
     public void SpawnBubbleOnBlock(GameObject bubble, Transform blockPos) //Use this function on Collision
     {
@@ -1550,7 +1555,7 @@ public class PowerUpManager : MonoBehaviour
             return 13;
 
         return 99; //Should never happen
-    }    
+    }
 
     public void SetCardChooseParticlesColor(int index, Vector2 pos)
     {
