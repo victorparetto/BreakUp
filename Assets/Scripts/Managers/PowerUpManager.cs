@@ -1566,12 +1566,18 @@ public class PowerUpManager : MonoBehaviour
     public void SetCardChooseParticlesColor(int index, Vector2 pos)
     {
         GameObject temp = PoolManager.current.GetPooledGameObject(PoolManager.current.cardsParticlesPool);
-        ParticleSystem ps = null;
-        if (temp.GetComponent<ParticleSystem>() != null) ps = temp.GetComponent<ParticleSystem>();
+        ParticleSystem ps;
+        ParticleSystem.MainModule main;
+        if (temp.GetComponent<ParticleSystem>() != null)
+        {
+            ps = temp.GetComponent<ParticleSystem>();
+            main = ps.main;
+        }
         else { print("No particle system to obtain"); return; }
 
         cardsParticles = ps;
-        cardsParticles.startColor = cardsChooseColor[index];
+        //cardsParticles.startColor = cardsChooseColor[index];
+        main.startColor = cardsChooseColor[index];
 
         temp.transform.position = pos;
         temp.SetActive(true);
