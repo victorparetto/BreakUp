@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class PowerUpManager : MonoBehaviour
 {
@@ -613,6 +614,11 @@ public class PowerUpManager : MonoBehaviour
         goldCard.parent = cardSlotToGo;
         goldCard.position = target;
         goldCard.gameObject.SetActive(true);
+
+        goldCard.DOScale(1.3f, 0.15f).SetEase(Ease.OutQuart).OnComplete(() =>
+        {
+            goldCard.DOScale(1f, 0.15f).SetEase(Ease.InQuad);
+        });
 
         yield return new WaitForSeconds(0.5f);
 
