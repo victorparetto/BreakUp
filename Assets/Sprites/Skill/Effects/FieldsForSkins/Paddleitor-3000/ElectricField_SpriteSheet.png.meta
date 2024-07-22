@@ -123,7 +123,7 @@ TextureImporter:
       213: -5691292999113824443
     second: ElectricField_SpriteSheet_39
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -140,9 +140,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,11 +155,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -174,10 +177,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -189,6 +197,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +210,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +223,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1070,9 +1094,49 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 022385544233be645b18d4fed52be174, type: 3}
       name: _emission
-  spritePackingTag: 
+    nameFileIdTable:
+      ElectricField_SpriteSheet_0: 5280857456337266306
+      ElectricField_SpriteSheet_1: 2440057328784914137
+      ElectricField_SpriteSheet_10: 8200621416203420866
+      ElectricField_SpriteSheet_11: -298449602930082439
+      ElectricField_SpriteSheet_12: -4598782803710592384
+      ElectricField_SpriteSheet_13: -5548043378376235605
+      ElectricField_SpriteSheet_14: -9101926433643330012
+      ElectricField_SpriteSheet_15: -15419003223427979
+      ElectricField_SpriteSheet_16: -5231098989002992179
+      ElectricField_SpriteSheet_17: -6998816654271340732
+      ElectricField_SpriteSheet_18: 3950821905801818238
+      ElectricField_SpriteSheet_19: 4189401303772099865
+      ElectricField_SpriteSheet_2: -1007096032397096916
+      ElectricField_SpriteSheet_20: 3950261466704321153
+      ElectricField_SpriteSheet_21: 6213158840179146944
+      ElectricField_SpriteSheet_22: 5723745922538520678
+      ElectricField_SpriteSheet_23: 3273043194253119599
+      ElectricField_SpriteSheet_24: -3745458008496082770
+      ElectricField_SpriteSheet_25: -5432563590311278380
+      ElectricField_SpriteSheet_26: 4094049824632292908
+      ElectricField_SpriteSheet_27: -7881507042881122188
+      ElectricField_SpriteSheet_28: 1294531140523822610
+      ElectricField_SpriteSheet_29: 3973880542335990837
+      ElectricField_SpriteSheet_3: -37807242755364666
+      ElectricField_SpriteSheet_30: 320241390896058640
+      ElectricField_SpriteSheet_31: 8955966445925626227
+      ElectricField_SpriteSheet_32: -2684451615064054951
+      ElectricField_SpriteSheet_33: -3734915560438779646
+      ElectricField_SpriteSheet_34: -7229988176974915490
+      ElectricField_SpriteSheet_35: -4163173055511419696
+      ElectricField_SpriteSheet_36: 4257259626325735893
+      ElectricField_SpriteSheet_37: 4124996115484132848
+      ElectricField_SpriteSheet_38: 1058673766643192612
+      ElectricField_SpriteSheet_39: -5691292999113824443
+      ElectricField_SpriteSheet_4: 8494269863778762551
+      ElectricField_SpriteSheet_5: 3975766997860338871
+      ElectricField_SpriteSheet_6: -4122160292261506454
+      ElectricField_SpriteSheet_7: 8408820490711862994
+      ElectricField_SpriteSheet_8: 2357350479512675990
+      ElectricField_SpriteSheet_9: 8556586177047170827
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

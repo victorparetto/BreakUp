@@ -78,7 +78,7 @@ TextureImporter:
       213: 4778056988744118848
     second: Chest_Spritesheet_Extended_24
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -95,9 +95,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -107,11 +110,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -129,10 +132,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -144,6 +152,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -156,6 +165,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -168,6 +178,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -708,9 +732,34 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Chest_Spritesheet_Extended_0: -3433128417637562992
+      Chest_Spritesheet_Extended_1: -4930074177174893459
+      Chest_Spritesheet_Extended_10: 8879981756593636481
+      Chest_Spritesheet_Extended_11: -8134247363514091953
+      Chest_Spritesheet_Extended_12: 2947259623516917136
+      Chest_Spritesheet_Extended_13: -8198181425345789722
+      Chest_Spritesheet_Extended_14: 5473556780294883884
+      Chest_Spritesheet_Extended_15: -1367912066248494608
+      Chest_Spritesheet_Extended_16: -4001297225535095999
+      Chest_Spritesheet_Extended_17: -5398835791305783241
+      Chest_Spritesheet_Extended_18: -7429948709077888042
+      Chest_Spritesheet_Extended_19: -728898781837112501
+      Chest_Spritesheet_Extended_2: 4319326361665688955
+      Chest_Spritesheet_Extended_20: 9151923650294878165
+      Chest_Spritesheet_Extended_21: -3437273045191152976
+      Chest_Spritesheet_Extended_22: -3894307395641121230
+      Chest_Spritesheet_Extended_23: 6674092658041459789
+      Chest_Spritesheet_Extended_24: 4778056988744118848
+      Chest_Spritesheet_Extended_3: -6984281254710834117
+      Chest_Spritesheet_Extended_4: 34104846340971589
+      Chest_Spritesheet_Extended_5: -3535491094124435149
+      Chest_Spritesheet_Extended_6: -4085619143970636092
+      Chest_Spritesheet_Extended_7: -9219129868359257780
+      Chest_Spritesheet_Extended_8: 200314575359289452
+      Chest_Spritesheet_Extended_9: 2780922566278185433
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

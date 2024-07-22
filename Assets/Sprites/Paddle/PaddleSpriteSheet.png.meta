@@ -231,7 +231,7 @@ TextureImporter:
       213: -1658553424195621283
     second: PaddleSpriteSheet_75
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -248,9 +248,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -260,11 +263,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -282,10 +285,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -297,6 +305,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -309,6 +318,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -321,6 +331,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -333,6 +344,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1946,9 +1958,85 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 31434f6b177c7d24ea6560b90d4e36de, type: 3}
       name: _emission
-  spritePackingTag: 
+    nameFileIdTable:
+      PaddleSpriteSheet_0: -120785984775555056
+      PaddleSpriteSheet_1: 190135162531387903
+      PaddleSpriteSheet_10: -6439689676715331232
+      PaddleSpriteSheet_11: 441085639432812391
+      PaddleSpriteSheet_12: 8609863487441511477
+      PaddleSpriteSheet_13: -6666975403950286287
+      PaddleSpriteSheet_14: -1686804982776296692
+      PaddleSpriteSheet_15: 7411464121545113721
+      PaddleSpriteSheet_16: 5730878178797871631
+      PaddleSpriteSheet_17: 2155978036053836066
+      PaddleSpriteSheet_18: 8684456558860990430
+      PaddleSpriteSheet_19: -4780173218152948390
+      PaddleSpriteSheet_2: -8640699465587838543
+      PaddleSpriteSheet_20: -525912628188411806
+      PaddleSpriteSheet_21: -7170669528048667084
+      PaddleSpriteSheet_22: 4261746370997496218
+      PaddleSpriteSheet_23: 8542120759686701536
+      PaddleSpriteSheet_24: -1536037807787721301
+      PaddleSpriteSheet_25: -5097081236636039979
+      PaddleSpriteSheet_26: -8688114855805048557
+      PaddleSpriteSheet_27: 4748244101662425116
+      PaddleSpriteSheet_28: 1192070568222286818
+      PaddleSpriteSheet_29: -5791327590860017661
+      PaddleSpriteSheet_3: 4902483543550343357
+      PaddleSpriteSheet_30: 4953747673622060791
+      PaddleSpriteSheet_31: 1169456488276308757
+      PaddleSpriteSheet_32: -4099590370074158691
+      PaddleSpriteSheet_33: 2110287981970948001
+      PaddleSpriteSheet_34: 1888541809863741653
+      PaddleSpriteSheet_35: 6115745185542276065
+      PaddleSpriteSheet_36: -6854090846731265404
+      PaddleSpriteSheet_37: 8420962221521633386
+      PaddleSpriteSheet_38: -2938765114422823953
+      PaddleSpriteSheet_39: 5464650625401150387
+      PaddleSpriteSheet_4: 7903320226942359639
+      PaddleSpriteSheet_40: -3187183609540029510
+      PaddleSpriteSheet_41: -1907632284039753865
+      PaddleSpriteSheet_42: 2013709980449979319
+      PaddleSpriteSheet_43: -1811015000616439014
+      PaddleSpriteSheet_44: 2091826908853222761
+      PaddleSpriteSheet_45: -1827162363542506363
+      PaddleSpriteSheet_46: -4470240084895123294
+      PaddleSpriteSheet_47: -7497463699720478299
+      PaddleSpriteSheet_48: 1713812924333680708
+      PaddleSpriteSheet_49: 5521913059128555115
+      PaddleSpriteSheet_5: -6364327478957558681
+      PaddleSpriteSheet_50: 6217634143812330098
+      PaddleSpriteSheet_51: 5575185202339864411
+      PaddleSpriteSheet_52: -2334708504673403198
+      PaddleSpriteSheet_53: -6523285244161044361
+      PaddleSpriteSheet_54: 6051077280291380364
+      PaddleSpriteSheet_55: 3161206509226185407
+      PaddleSpriteSheet_56: 1050340379592942217
+      PaddleSpriteSheet_57: 8458456349302345387
+      PaddleSpriteSheet_58: -5690706436239208231
+      PaddleSpriteSheet_59: -4971126489368975443
+      PaddleSpriteSheet_6: -5070062609472017584
+      PaddleSpriteSheet_60: -6685243073765124152
+      PaddleSpriteSheet_61: -3673450938589710190
+      PaddleSpriteSheet_62: -1874318231605935942
+      PaddleSpriteSheet_63: 959261560890305028
+      PaddleSpriteSheet_64: -3370144215504224511
+      PaddleSpriteSheet_65: 5324328030750662324
+      PaddleSpriteSheet_66: -4706886502789183359
+      PaddleSpriteSheet_67: 7391072957446031087
+      PaddleSpriteSheet_68: -3287213931329736365
+      PaddleSpriteSheet_69: -1714659095182217718
+      PaddleSpriteSheet_7: 6225127102612812735
+      PaddleSpriteSheet_70: 7164283593247760810
+      PaddleSpriteSheet_71: -1429321748299824555
+      PaddleSpriteSheet_72: -6359563706996707120
+      PaddleSpriteSheet_73: -8972121487437084552
+      PaddleSpriteSheet_74: -6634166348438586021
+      PaddleSpriteSheet_75: -1658553424195621283
+      PaddleSpriteSheet_8: 3785375335501141722
+      PaddleSpriteSheet_9: -1647634552854800031
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

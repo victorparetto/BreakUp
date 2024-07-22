@@ -123,7 +123,7 @@ TextureImporter:
       213: -1107609275905661665
     second: MagneticField_Effect_Sprite_39
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -140,9 +140,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,11 +155,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -174,10 +177,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -189,6 +197,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +210,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +223,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -225,6 +236,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1082,9 +1094,49 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: e7ae5a9207b956b449ec27e5fb8e4c03, type: 3}
       name: _emission
-  spritePackingTag: 
+    nameFileIdTable:
+      MagneticField_Effect_Sprite_0: 4884174119119502999
+      MagneticField_Effect_Sprite_1: -1559700118184743699
+      MagneticField_Effect_Sprite_10: -1155605001321080120
+      MagneticField_Effect_Sprite_11: -7753687020807719466
+      MagneticField_Effect_Sprite_12: 9221404141024055156
+      MagneticField_Effect_Sprite_13: -3683213692118639073
+      MagneticField_Effect_Sprite_14: 7200734898578226746
+      MagneticField_Effect_Sprite_15: 587505369146584919
+      MagneticField_Effect_Sprite_16: 6934837835342706637
+      MagneticField_Effect_Sprite_17: -2283452242234243117
+      MagneticField_Effect_Sprite_18: -8939340636010087286
+      MagneticField_Effect_Sprite_19: 2438452824309288598
+      MagneticField_Effect_Sprite_2: 726727608629258137
+      MagneticField_Effect_Sprite_20: 428729316269588338
+      MagneticField_Effect_Sprite_21: 4975616020388595824
+      MagneticField_Effect_Sprite_22: 1729828169929659774
+      MagneticField_Effect_Sprite_23: -6432869858046567106
+      MagneticField_Effect_Sprite_24: -2484240441762005410
+      MagneticField_Effect_Sprite_25: 2497602054851840456
+      MagneticField_Effect_Sprite_26: 8865383511962816306
+      MagneticField_Effect_Sprite_27: -3182161276604862544
+      MagneticField_Effect_Sprite_28: 953048985440882090
+      MagneticField_Effect_Sprite_29: 3512967334725652528
+      MagneticField_Effect_Sprite_3: 2847512852479434325
+      MagneticField_Effect_Sprite_30: 9073104043801200744
+      MagneticField_Effect_Sprite_31: 2314760966544328059
+      MagneticField_Effect_Sprite_32: 3024338614271767991
+      MagneticField_Effect_Sprite_33: 7995640917354663238
+      MagneticField_Effect_Sprite_34: 4666164121830315391
+      MagneticField_Effect_Sprite_35: 4502184156760671937
+      MagneticField_Effect_Sprite_36: 5494023209864165931
+      MagneticField_Effect_Sprite_37: 5940527857250679061
+      MagneticField_Effect_Sprite_38: 7811464995935676746
+      MagneticField_Effect_Sprite_39: -1107609275905661665
+      MagneticField_Effect_Sprite_4: -4309041032709349144
+      MagneticField_Effect_Sprite_5: -8008455119198798296
+      MagneticField_Effect_Sprite_6: -7411165732206114266
+      MagneticField_Effect_Sprite_7: -4896860635231427653
+      MagneticField_Effect_Sprite_8: -7286977899383175948
+      MagneticField_Effect_Sprite_9: -3060955284717503138
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

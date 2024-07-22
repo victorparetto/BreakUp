@@ -183,7 +183,7 @@ TextureImporter:
       213: 6237485090178639584
     second: Ball_Phasing_PowerUp_v2_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -200,9 +200,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -212,11 +215,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -234,10 +237,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -249,6 +257,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -261,6 +270,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -273,6 +283,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -285,6 +296,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1562,9 +1574,69 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: a4bfefee600ca0f4aa03c7850816802f, type: 3}
       name: _Emission
-  spritePackingTag: 
+    nameFileIdTable:
+      Ball_Phasing_PowerUp_v2_0: -4125453897844437693
+      Ball_Phasing_PowerUp_v2_1: 3705246450708591430
+      Ball_Phasing_PowerUp_v2_10: -6057917693733822008
+      Ball_Phasing_PowerUp_v2_11: -8827793282084481416
+      Ball_Phasing_PowerUp_v2_12: -5046828052199337843
+      Ball_Phasing_PowerUp_v2_13: 8540744171349518659
+      Ball_Phasing_PowerUp_v2_14: -4936374846633147694
+      Ball_Phasing_PowerUp_v2_15: -6633800441760838683
+      Ball_Phasing_PowerUp_v2_16: -1446495746946644268
+      Ball_Phasing_PowerUp_v2_17: 853314211689012599
+      Ball_Phasing_PowerUp_v2_18: 5590304217544701376
+      Ball_Phasing_PowerUp_v2_19: 3289047507019531992
+      Ball_Phasing_PowerUp_v2_2: -5664415168739757930
+      Ball_Phasing_PowerUp_v2_20: -3604990215684384619
+      Ball_Phasing_PowerUp_v2_21: 6056132330679972594
+      Ball_Phasing_PowerUp_v2_22: -7868730627752412835
+      Ball_Phasing_PowerUp_v2_23: 4725974257050764634
+      Ball_Phasing_PowerUp_v2_24: -756748992806876026
+      Ball_Phasing_PowerUp_v2_25: 7639903206074741301
+      Ball_Phasing_PowerUp_v2_26: 4794822490328929374
+      Ball_Phasing_PowerUp_v2_27: 4495432692113137086
+      Ball_Phasing_PowerUp_v2_28: 8041408269743147726
+      Ball_Phasing_PowerUp_v2_29: 8265679564528760637
+      Ball_Phasing_PowerUp_v2_3: -5508131627578095137
+      Ball_Phasing_PowerUp_v2_30: -8792824082068895414
+      Ball_Phasing_PowerUp_v2_31: 8109448350095965302
+      Ball_Phasing_PowerUp_v2_32: 6003633815623705998
+      Ball_Phasing_PowerUp_v2_33: -1025122555481071856
+      Ball_Phasing_PowerUp_v2_34: -8410998491878281023
+      Ball_Phasing_PowerUp_v2_35: 4020246041758268787
+      Ball_Phasing_PowerUp_v2_36: 4658750745410583185
+      Ball_Phasing_PowerUp_v2_37: 1941591307721218183
+      Ball_Phasing_PowerUp_v2_38: 4388228454980824094
+      Ball_Phasing_PowerUp_v2_39: -5005399069226752162
+      Ball_Phasing_PowerUp_v2_4: 4774831354024067890
+      Ball_Phasing_PowerUp_v2_40: -587166287161913591
+      Ball_Phasing_PowerUp_v2_41: 5331621502179248790
+      Ball_Phasing_PowerUp_v2_42: 1350861156949489246
+      Ball_Phasing_PowerUp_v2_43: 1061472961508125775
+      Ball_Phasing_PowerUp_v2_44: 3208826723367496565
+      Ball_Phasing_PowerUp_v2_45: 4982442211999119248
+      Ball_Phasing_PowerUp_v2_46: -1971329455774390355
+      Ball_Phasing_PowerUp_v2_47: -1903144385492490650
+      Ball_Phasing_PowerUp_v2_48: -6257255539239355662
+      Ball_Phasing_PowerUp_v2_49: -182668667726275984
+      Ball_Phasing_PowerUp_v2_5: 3555466224364042843
+      Ball_Phasing_PowerUp_v2_50: -8339077788922003744
+      Ball_Phasing_PowerUp_v2_51: -4832945153837580841
+      Ball_Phasing_PowerUp_v2_52: -2498050161198043979
+      Ball_Phasing_PowerUp_v2_53: 9138689203451685529
+      Ball_Phasing_PowerUp_v2_54: 8208256455382377237
+      Ball_Phasing_PowerUp_v2_55: 5345543427645482404
+      Ball_Phasing_PowerUp_v2_56: 4115667425168924366
+      Ball_Phasing_PowerUp_v2_57: -6237291269165594518
+      Ball_Phasing_PowerUp_v2_58: -4662565223040541796
+      Ball_Phasing_PowerUp_v2_59: 6237485090178639584
+      Ball_Phasing_PowerUp_v2_6: -1228446231324120966
+      Ball_Phasing_PowerUp_v2_7: -195087955653357351
+      Ball_Phasing_PowerUp_v2_8: 1854237338017421764
+      Ball_Phasing_PowerUp_v2_9: -7146685928308516997
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

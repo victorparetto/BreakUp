@@ -183,7 +183,7 @@ TextureImporter:
       213: 6556122061737178177
     second: Ocean_Ball_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -200,9 +200,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -211,12 +214,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -234,10 +237,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -249,6 +257,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -261,6 +270,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -273,6 +283,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -285,6 +296,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1560,9 +1572,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Ocean_Ball_0: -2440109045372456574
+      Ocean_Ball_1: -7906879543126572362
+      Ocean_Ball_10: 7255316562985372129
+      Ocean_Ball_11: 8145850991404205789
+      Ocean_Ball_12: 3404238953979897529
+      Ocean_Ball_13: -5464317508884149930
+      Ocean_Ball_14: 5731371676524575927
+      Ocean_Ball_15: -8000081334904935096
+      Ocean_Ball_16: 4180521382995128782
+      Ocean_Ball_17: 5152641659086067349
+      Ocean_Ball_18: 2989552626084704066
+      Ocean_Ball_19: -4243641364368446489
+      Ocean_Ball_2: -8731343364248102268
+      Ocean_Ball_20: -1711942050851351911
+      Ocean_Ball_21: -8172511244122257318
+      Ocean_Ball_22: 2682493254141393913
+      Ocean_Ball_23: -1977255063648774834
+      Ocean_Ball_24: -6521862619142099111
+      Ocean_Ball_25: -8370308544010053028
+      Ocean_Ball_26: -9000112205365215323
+      Ocean_Ball_27: -3137140118713241554
+      Ocean_Ball_28: 5145982021848019010
+      Ocean_Ball_29: -2414788073824336573
+      Ocean_Ball_3: -2381389508309354328
+      Ocean_Ball_30: -8537755861389042526
+      Ocean_Ball_31: -1197259795200260502
+      Ocean_Ball_32: -984895080785115460
+      Ocean_Ball_33: -729408280723178025
+      Ocean_Ball_34: -1602998649506046332
+      Ocean_Ball_35: 289164830567135222
+      Ocean_Ball_36: 5143451692388527649
+      Ocean_Ball_37: 6824199048497830661
+      Ocean_Ball_38: 1213858081447177983
+      Ocean_Ball_39: 8461192234698241054
+      Ocean_Ball_4: 6589626995790308834
+      Ocean_Ball_40: 8263063532014278796
+      Ocean_Ball_41: -1985956977944355085
+      Ocean_Ball_42: 3806638840738571093
+      Ocean_Ball_43: 4029629352004825627
+      Ocean_Ball_44: -5568183667036786159
+      Ocean_Ball_45: 1583667020968936263
+      Ocean_Ball_46: -1705785408845325627
+      Ocean_Ball_47: -7983979434521694766
+      Ocean_Ball_48: -5899292073232334899
+      Ocean_Ball_49: 6969441881268488255
+      Ocean_Ball_5: -6506800435028329683
+      Ocean_Ball_50: -5606647768637382697
+      Ocean_Ball_51: -1149478798630872487
+      Ocean_Ball_52: -3991928868212501848
+      Ocean_Ball_53: 6681247306001920418
+      Ocean_Ball_54: -917340292281518578
+      Ocean_Ball_55: 8208724015086565234
+      Ocean_Ball_56: 5298600509918555272
+      Ocean_Ball_57: 8996949044275012812
+      Ocean_Ball_58: 7154637399007822093
+      Ocean_Ball_59: 6556122061737178177
+      Ocean_Ball_6: 1850432603869974818
+      Ocean_Ball_7: 220857668419764126
+      Ocean_Ball_8: -6648023077276653907
+      Ocean_Ball_9: -8439286599324180486
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

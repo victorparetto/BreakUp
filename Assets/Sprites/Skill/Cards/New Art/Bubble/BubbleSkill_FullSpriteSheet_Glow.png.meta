@@ -111,7 +111,7 @@ TextureImporter:
       213: 6337864498671368057
     second: BubbleSkill_FullSpriteSheet_Glow_35
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -128,9 +128,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -140,11 +143,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -162,10 +165,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -177,6 +185,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -189,6 +198,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +211,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -972,9 +996,45 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      BubbleSkill_FullSpriteSheet_Glow_0: -8052650817346820908
+      BubbleSkill_FullSpriteSheet_Glow_1: 4586674642139686775
+      BubbleSkill_FullSpriteSheet_Glow_10: -8500562798559817489
+      BubbleSkill_FullSpriteSheet_Glow_11: -1624239021069556861
+      BubbleSkill_FullSpriteSheet_Glow_12: 5603670337250552225
+      BubbleSkill_FullSpriteSheet_Glow_13: -5873112420597398299
+      BubbleSkill_FullSpriteSheet_Glow_14: -2906214865572688590
+      BubbleSkill_FullSpriteSheet_Glow_15: 5780841437656413571
+      BubbleSkill_FullSpriteSheet_Glow_16: -1306582814709741576
+      BubbleSkill_FullSpriteSheet_Glow_17: 1617394839345475275
+      BubbleSkill_FullSpriteSheet_Glow_18: 6225376920663085604
+      BubbleSkill_FullSpriteSheet_Glow_19: -340844374884256159
+      BubbleSkill_FullSpriteSheet_Glow_2: 535839701277475081
+      BubbleSkill_FullSpriteSheet_Glow_20: -205663428320669858
+      BubbleSkill_FullSpriteSheet_Glow_21: 1182755728375754652
+      BubbleSkill_FullSpriteSheet_Glow_22: 6859482426777964880
+      BubbleSkill_FullSpriteSheet_Glow_23: -5138001356802696352
+      BubbleSkill_FullSpriteSheet_Glow_24: 3749300720569715105
+      BubbleSkill_FullSpriteSheet_Glow_25: 722586981980946151
+      BubbleSkill_FullSpriteSheet_Glow_26: -4305122064353293559
+      BubbleSkill_FullSpriteSheet_Glow_27: 187291231201511632
+      BubbleSkill_FullSpriteSheet_Glow_28: 2613445419112608772
+      BubbleSkill_FullSpriteSheet_Glow_29: -3803838582021890977
+      BubbleSkill_FullSpriteSheet_Glow_3: -2876323918268799048
+      BubbleSkill_FullSpriteSheet_Glow_30: -3435897223824589192
+      BubbleSkill_FullSpriteSheet_Glow_31: 1354792489366894671
+      BubbleSkill_FullSpriteSheet_Glow_32: -3147131011774950460
+      BubbleSkill_FullSpriteSheet_Glow_33: -839103782845680025
+      BubbleSkill_FullSpriteSheet_Glow_34: 268439594760466970
+      BubbleSkill_FullSpriteSheet_Glow_35: 6337864498671368057
+      BubbleSkill_FullSpriteSheet_Glow_4: 4471571554990360929
+      BubbleSkill_FullSpriteSheet_Glow_5: -59210159700648133
+      BubbleSkill_FullSpriteSheet_Glow_6: -2635067756217540362
+      BubbleSkill_FullSpriteSheet_Glow_7: -3416683580290272405
+      BubbleSkill_FullSpriteSheet_Glow_8: -4314671988962766835
+      BubbleSkill_FullSpriteSheet_Glow_9: -7962429882948944893
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

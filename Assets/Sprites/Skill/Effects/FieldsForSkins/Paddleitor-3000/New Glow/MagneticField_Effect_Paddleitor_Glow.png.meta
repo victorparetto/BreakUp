@@ -123,7 +123,7 @@ TextureImporter:
       213: -1867681805050689609
     second: MagneticField_Effect_Paddleitor_Glow_39
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -140,9 +140,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,11 +155,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -174,10 +177,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -189,6 +197,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +210,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +223,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1068,9 +1092,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      MagneticField_Effect_Paddleitor_Glow_0: 336980542453179291
+      MagneticField_Effect_Paddleitor_Glow_1: 8176147863931344433
+      MagneticField_Effect_Paddleitor_Glow_10: -1115646020185193922
+      MagneticField_Effect_Paddleitor_Glow_11: 6278988163028193315
+      MagneticField_Effect_Paddleitor_Glow_12: -1671658047028758488
+      MagneticField_Effect_Paddleitor_Glow_13: 1089597781517495808
+      MagneticField_Effect_Paddleitor_Glow_14: 4075827846025165239
+      MagneticField_Effect_Paddleitor_Glow_15: 8829800551372621407
+      MagneticField_Effect_Paddleitor_Glow_16: 310856019975422173
+      MagneticField_Effect_Paddleitor_Glow_17: -4947926722813289543
+      MagneticField_Effect_Paddleitor_Glow_18: -6091167767321796442
+      MagneticField_Effect_Paddleitor_Glow_19: 8518933928092481522
+      MagneticField_Effect_Paddleitor_Glow_2: 3062808793541593820
+      MagneticField_Effect_Paddleitor_Glow_20: -6014038014935898510
+      MagneticField_Effect_Paddleitor_Glow_21: -1932525207482001805
+      MagneticField_Effect_Paddleitor_Glow_22: -1864566477134526042
+      MagneticField_Effect_Paddleitor_Glow_23: 2486218307468685848
+      MagneticField_Effect_Paddleitor_Glow_24: 102036735349466921
+      MagneticField_Effect_Paddleitor_Glow_25: -5591707653614520405
+      MagneticField_Effect_Paddleitor_Glow_26: -2105148015251844563
+      MagneticField_Effect_Paddleitor_Glow_27: 8392733208809515759
+      MagneticField_Effect_Paddleitor_Glow_28: -8492116036105593133
+      MagneticField_Effect_Paddleitor_Glow_29: 465677858615069030
+      MagneticField_Effect_Paddleitor_Glow_3: -843996703419905418
+      MagneticField_Effect_Paddleitor_Glow_30: -4832384853732318177
+      MagneticField_Effect_Paddleitor_Glow_31: 940477833033644328
+      MagneticField_Effect_Paddleitor_Glow_32: 513254723065478432
+      MagneticField_Effect_Paddleitor_Glow_33: -4022960342238619749
+      MagneticField_Effect_Paddleitor_Glow_34: 2002200946471589584
+      MagneticField_Effect_Paddleitor_Glow_35: 9122762146093341629
+      MagneticField_Effect_Paddleitor_Glow_36: 8190088130170167718
+      MagneticField_Effect_Paddleitor_Glow_37: -1389332078011694122
+      MagneticField_Effect_Paddleitor_Glow_38: -1426699911451056224
+      MagneticField_Effect_Paddleitor_Glow_39: -1867681805050689609
+      MagneticField_Effect_Paddleitor_Glow_4: 73082705784799223
+      MagneticField_Effect_Paddleitor_Glow_5: -8420600337477919883
+      MagneticField_Effect_Paddleitor_Glow_6: 3667394712435552747
+      MagneticField_Effect_Paddleitor_Glow_7: 6946979578308498705
+      MagneticField_Effect_Paddleitor_Glow_8: 3048636761274653614
+      MagneticField_Effect_Paddleitor_Glow_9: -6475708599392948736
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

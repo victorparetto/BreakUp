@@ -123,7 +123,7 @@ TextureImporter:
       213: 368382635762282439
     second: FireField_Effet_Dragon_Sprite_39
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -140,9 +140,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -152,11 +155,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -174,10 +177,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -189,6 +197,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -201,6 +210,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -213,6 +223,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1068,9 +1092,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      FireField_Effet_Dragon_Sprite_0: -8096611978269601281
+      FireField_Effet_Dragon_Sprite_1: 4653034560529013839
+      FireField_Effet_Dragon_Sprite_10: 6204007674572888076
+      FireField_Effet_Dragon_Sprite_11: -5804527252077066419
+      FireField_Effet_Dragon_Sprite_12: -6345612019815981788
+      FireField_Effet_Dragon_Sprite_13: 8299662257914756008
+      FireField_Effet_Dragon_Sprite_14: 4065680742909182438
+      FireField_Effet_Dragon_Sprite_15: -2925944526431950409
+      FireField_Effet_Dragon_Sprite_16: -3570984472632461654
+      FireField_Effet_Dragon_Sprite_17: -6161928901550050543
+      FireField_Effet_Dragon_Sprite_18: 6668879988604070878
+      FireField_Effet_Dragon_Sprite_19: -3289071069262430126
+      FireField_Effet_Dragon_Sprite_2: -1898189423432679292
+      FireField_Effet_Dragon_Sprite_20: -9208198433173163840
+      FireField_Effet_Dragon_Sprite_21: 6205513482124177565
+      FireField_Effet_Dragon_Sprite_22: 9137228899490931869
+      FireField_Effet_Dragon_Sprite_23: 8003026807351475893
+      FireField_Effet_Dragon_Sprite_24: -8032113562206914303
+      FireField_Effet_Dragon_Sprite_25: -6364548191783910598
+      FireField_Effet_Dragon_Sprite_26: 7396544605030152301
+      FireField_Effet_Dragon_Sprite_27: -231238305172362893
+      FireField_Effet_Dragon_Sprite_28: -1083075240037221842
+      FireField_Effet_Dragon_Sprite_29: 5514759359089313006
+      FireField_Effet_Dragon_Sprite_3: 6093600395651522828
+      FireField_Effet_Dragon_Sprite_30: -2764525863291459225
+      FireField_Effet_Dragon_Sprite_31: 3959466277322594000
+      FireField_Effet_Dragon_Sprite_32: -9211891000218165182
+      FireField_Effet_Dragon_Sprite_33: -6155976835418088018
+      FireField_Effet_Dragon_Sprite_34: -2281433168790655464
+      FireField_Effet_Dragon_Sprite_35: -4025334693923105974
+      FireField_Effet_Dragon_Sprite_36: -3362988838519751911
+      FireField_Effet_Dragon_Sprite_37: -1611197159718843663
+      FireField_Effet_Dragon_Sprite_38: -7872479521824975394
+      FireField_Effet_Dragon_Sprite_39: 368382635762282439
+      FireField_Effet_Dragon_Sprite_4: 7336264984148236351
+      FireField_Effet_Dragon_Sprite_5: -6293282275218472844
+      FireField_Effet_Dragon_Sprite_6: 558947448714430156
+      FireField_Effet_Dragon_Sprite_7: -877383156865808629
+      FireField_Effet_Dragon_Sprite_8: -8577914867238537183
+      FireField_Effet_Dragon_Sprite_9: -7988986523316226605
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

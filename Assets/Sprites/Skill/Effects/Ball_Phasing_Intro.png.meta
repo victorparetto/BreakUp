@@ -93,7 +93,7 @@ TextureImporter:
       213: -9088730569450836201
     second: Ball_Phasing_Intro_29
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -110,9 +110,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -122,11 +125,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -144,10 +147,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -159,6 +167,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -171,6 +180,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -183,6 +193,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -195,6 +206,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -840,9 +852,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      Ball_Phasing_Intro_0: -1152254960156332109
+      Ball_Phasing_Intro_1: -326044034335363901
+      Ball_Phasing_Intro_10: -1815840546203142096
+      Ball_Phasing_Intro_11: 2793215214444767288
+      Ball_Phasing_Intro_12: 7652884807039724652
+      Ball_Phasing_Intro_13: 5839156273752650008
+      Ball_Phasing_Intro_14: 8502657269242056130
+      Ball_Phasing_Intro_15: -5682830411496159403
+      Ball_Phasing_Intro_16: -6753434607459565358
+      Ball_Phasing_Intro_17: -2041424394949606226
+      Ball_Phasing_Intro_18: -3143783857864676575
+      Ball_Phasing_Intro_19: -4543940854637168882
+      Ball_Phasing_Intro_2: -7966633145854557249
+      Ball_Phasing_Intro_20: -7510491865536911685
+      Ball_Phasing_Intro_21: -5640737354126004929
+      Ball_Phasing_Intro_22: 5130138423975713485
+      Ball_Phasing_Intro_23: 5419352616869361211
+      Ball_Phasing_Intro_24: 6323688328783530173
+      Ball_Phasing_Intro_25: 8539425657950545214
+      Ball_Phasing_Intro_26: -2406505143859258733
+      Ball_Phasing_Intro_27: -7585136615151147264
+      Ball_Phasing_Intro_28: 8423905441413789134
+      Ball_Phasing_Intro_29: -9088730569450836201
+      Ball_Phasing_Intro_3: -8231326508443257916
+      Ball_Phasing_Intro_4: 7357703348195404976
+      Ball_Phasing_Intro_5: -920842149042087806
+      Ball_Phasing_Intro_6: 2089257215377094088
+      Ball_Phasing_Intro_7: -2978507172539588993
+      Ball_Phasing_Intro_8: 5388599872572421207
+      Ball_Phasing_Intro_9: 4374746579798767249
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

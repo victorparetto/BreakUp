@@ -183,7 +183,7 @@ TextureImporter:
       213: -1426422232066122970
     second: GoldBorderFinalSpriteSheet2_59
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -200,9 +200,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -212,11 +215,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -234,10 +237,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -249,6 +257,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -261,6 +270,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -273,6 +283,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -285,6 +296,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1560,9 +1572,69 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      GoldBorderFinalSpriteSheet2_0: -5357972684489222207
+      GoldBorderFinalSpriteSheet2_1: -1278799669009223856
+      GoldBorderFinalSpriteSheet2_10: -864719483280678372
+      GoldBorderFinalSpriteSheet2_11: 2673316072926479555
+      GoldBorderFinalSpriteSheet2_12: -7073303170074864477
+      GoldBorderFinalSpriteSheet2_13: 7093771401983061933
+      GoldBorderFinalSpriteSheet2_14: -8410388375157549485
+      GoldBorderFinalSpriteSheet2_15: 6474504933205617604
+      GoldBorderFinalSpriteSheet2_16: 5498478824126650648
+      GoldBorderFinalSpriteSheet2_17: 4867531179617439531
+      GoldBorderFinalSpriteSheet2_18: 929538483447786716
+      GoldBorderFinalSpriteSheet2_19: -6389038023056988926
+      GoldBorderFinalSpriteSheet2_2: 186041078554329565
+      GoldBorderFinalSpriteSheet2_20: 6044955777150475732
+      GoldBorderFinalSpriteSheet2_21: 2761528673903087088
+      GoldBorderFinalSpriteSheet2_22: 8649266137217016897
+      GoldBorderFinalSpriteSheet2_23: 1585872878074400610
+      GoldBorderFinalSpriteSheet2_24: 6573069324252377168
+      GoldBorderFinalSpriteSheet2_25: 2574495714098551673
+      GoldBorderFinalSpriteSheet2_26: -1058799562503697511
+      GoldBorderFinalSpriteSheet2_27: -2032336507893142738
+      GoldBorderFinalSpriteSheet2_28: 3078776873307544939
+      GoldBorderFinalSpriteSheet2_29: -992495127367350082
+      GoldBorderFinalSpriteSheet2_3: 5329511429283593386
+      GoldBorderFinalSpriteSheet2_30: 145145519302074570
+      GoldBorderFinalSpriteSheet2_31: 1783768400158121655
+      GoldBorderFinalSpriteSheet2_32: -8126711948930460897
+      GoldBorderFinalSpriteSheet2_33: 4723074298127397892
+      GoldBorderFinalSpriteSheet2_34: 4919909693237596741
+      GoldBorderFinalSpriteSheet2_35: 1296012073573890837
+      GoldBorderFinalSpriteSheet2_36: -1698686514005205494
+      GoldBorderFinalSpriteSheet2_37: 1532339517129792980
+      GoldBorderFinalSpriteSheet2_38: 3728392120806698054
+      GoldBorderFinalSpriteSheet2_39: 5263582153192727584
+      GoldBorderFinalSpriteSheet2_4: 3259832589762546628
+      GoldBorderFinalSpriteSheet2_40: -4673910642173156123
+      GoldBorderFinalSpriteSheet2_41: 7329998632393706118
+      GoldBorderFinalSpriteSheet2_42: -7557352185112401261
+      GoldBorderFinalSpriteSheet2_43: -6650543685175597907
+      GoldBorderFinalSpriteSheet2_44: 8778218434590293946
+      GoldBorderFinalSpriteSheet2_45: -5693257001800373775
+      GoldBorderFinalSpriteSheet2_46: -556075410576754571
+      GoldBorderFinalSpriteSheet2_47: 2879492956005900794
+      GoldBorderFinalSpriteSheet2_48: 1393024898486240666
+      GoldBorderFinalSpriteSheet2_49: 365831682014467519
+      GoldBorderFinalSpriteSheet2_5: 2333811457205519464
+      GoldBorderFinalSpriteSheet2_50: 1172535605488333665
+      GoldBorderFinalSpriteSheet2_51: -9163862075498005755
+      GoldBorderFinalSpriteSheet2_52: -8531591465395495978
+      GoldBorderFinalSpriteSheet2_53: 5760901586624007741
+      GoldBorderFinalSpriteSheet2_54: 4206426020749821748
+      GoldBorderFinalSpriteSheet2_55: -7557004997256878758
+      GoldBorderFinalSpriteSheet2_56: -6298649969243404606
+      GoldBorderFinalSpriteSheet2_57: 2146006862277584985
+      GoldBorderFinalSpriteSheet2_58: 5590930547043491309
+      GoldBorderFinalSpriteSheet2_59: -1426422232066122970
+      GoldBorderFinalSpriteSheet2_6: -8623184403019626169
+      GoldBorderFinalSpriteSheet2_7: 928585971276794968
+      GoldBorderFinalSpriteSheet2_8: -7455869900716230393
+      GoldBorderFinalSpriteSheet2_9: -2228823626241941445
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

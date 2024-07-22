@@ -39,7 +39,7 @@ TextureImporter:
       213: 2518751167009650332
     second: Paddles_SpriteSheet_Skins3_11
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -56,9 +56,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -68,11 +71,11 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -90,10 +93,15 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -105,6 +113,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -117,6 +126,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -129,6 +139,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -398,9 +422,21 @@ TextureImporter:
     secondaryTextures:
     - texture: {fileID: 2800000, guid: 31434f6b177c7d24ea6560b90d4e36de, type: 3}
       name: _emission
-  spritePackingTag: 
+    nameFileIdTable:
+      Paddles_SpriteSheet_Skins3_0: -2282079081605327588
+      Paddles_SpriteSheet_Skins3_1: 2587016140354938153
+      Paddles_SpriteSheet_Skins3_10: 4240420118641796497
+      Paddles_SpriteSheet_Skins3_11: 2518751167009650332
+      Paddles_SpriteSheet_Skins3_2: -6403951403529235348
+      Paddles_SpriteSheet_Skins3_3: 7793899420939243144
+      Paddles_SpriteSheet_Skins3_4: 7780482451753801514
+      Paddles_SpriteSheet_Skins3_5: -5151687352431078105
+      Paddles_SpriteSheet_Skins3_6: -6646094777312858717
+      Paddles_SpriteSheet_Skins3_7: 2365093954956010084
+      Paddles_SpriteSheet_Skins3_8: -5250369741500968629
+      Paddles_SpriteSheet_Skins3_9: 3393188768187444822
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
