@@ -98,7 +98,8 @@ public class ChooseDirection : MonoBehaviour
                                 _initialPosition = touchPosWorld2D;
                                 MoveBallsToMouseDown();
                                 _lineRenderer.SetPosition(0, _initialPosition);
-                                _lineRenderer.SetVertexCount(1);
+                                //_lineRenderer.SetVertexCount(1);
+                                _lineRenderer.positionCount = 1;
                                 _lineRenderer.enabled = true;
                             }
                             else
@@ -112,7 +113,8 @@ public class ChooseDirection : MonoBehaviour
                     if (isDragging)
                     {
                         _currentPosition = touchPosWorld2D;
-                        _lineRenderer.SetVertexCount(2);
+                        //_lineRenderer.SetVertexCount(2);
+                        _lineRenderer.positionCount = 2;
                         _lineRenderer.SetPosition(1, _currentPosition);
 
                         if (Input.GetTouch(0).phase == TouchPhase.Ended)
@@ -147,7 +149,8 @@ public class ChooseDirection : MonoBehaviour
                             _initialPosition = GetCurrentMousePosition().GetValueOrDefault();
                             MoveBallsToMouseDown();
                             _lineRenderer.SetPosition(0, _initialPosition);
-                            _lineRenderer.SetVertexCount(1);
+                            //_lineRenderer.SetVertexCount(1);
+                            _lineRenderer.positionCount = 1;
                             _lineRenderer.enabled = true;
                         }
                         else
@@ -163,7 +166,8 @@ public class ChooseDirection : MonoBehaviour
                     if (Input.GetMouseButton(0))
                     {
                         _currentPosition = GetCurrentMousePosition().GetValueOrDefault();
-                        _lineRenderer.SetVertexCount(2);
+                        //_lineRenderer.SetVertexCount(2);
+                        _lineRenderer.positionCount = 2;
                         _lineRenderer.SetPosition(1, _currentPosition);
 
                     }
