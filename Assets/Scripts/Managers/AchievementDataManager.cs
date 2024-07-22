@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Collections;
@@ -22,7 +22,7 @@ public class AchievementDataManager : MonoBehaviour
         {
             if (instance == null)
             {
-                Debug.LogWarning("Creating AchievementDataManager");
+                //Debug.LogWarning("Creating AchievementDataManager");
                 GameObject owner = new GameObject("AchievementDataManager");
                 instance = owner.AddComponent<AchievementDataManager>();
             }
@@ -41,7 +41,7 @@ public class AchievementDataManager : MonoBehaviour
         }
         else if (instance != this)
         {
-            Debug.LogWarning("Destroying AchievementDataManager");
+            //Debug.LogWarning("Destroying AchievementDataManager");
             Destroy(this);
         }
 
@@ -91,7 +91,7 @@ public class AchievementDataManager : MonoBehaviour
             }
         }
 
-        if(data.saved_achievementsClaimedState != null)
+        if (data.saved_achievementsClaimedState != null)
         {
             achievementsClaimedState.Clear();
             for (int i = 0; i < data.saved_achievementsClaimedState.Length; i++)

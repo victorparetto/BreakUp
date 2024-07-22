@@ -7,7 +7,7 @@ using UnityEngine.EventSystems;
 public class EndOfRunScoreAnimation : MonoBehaviour
 {
     GameManager gm;
-    [SerializeField] UnityMonetization um;
+    //[SerializeField] UnityMonetization um;
 
     enum EndOfGame
     {
@@ -180,7 +180,7 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                             t = 0;
                             currentAlpha = 0;
                             currentCG = 0;
-                            
+
                             //Setting Hearts Score Bonuses
                             bonusScore = gm.HealthBonusScore();
                             UpdateScoreText(heartBonusScore, bonusScore);
@@ -223,7 +223,7 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                         {
                             t = 0;
                             currentAlpha = 0;
-                            currentCG++;                           
+                            currentCG++;
 
                             state = EndOfGame.HEARTS_BONUS_SCORE;
                         }
@@ -246,7 +246,7 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                         UpdateScoreText(heartBonusScore, bonusScore);
                         UpdateScoreText(finalScoreText, finalScore);
 
-                        if(t >= 1)
+                        if (t >= 1)
                         {
                             t = 0;
 
@@ -664,7 +664,7 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                         {
                             t = 0;
                             bonusesPanelGO.SetActive(false);
-                            if (um.AdvertisementIsReady())
+                            /*if (um.AdvertisementIsReady())
                             {
                                 if (has0ScoreOnNextBonus)
                                 {
@@ -681,16 +681,16 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                                 adCoinBonusMultiplierText.text = "x" + gm.adBonusMultiplier.ToString();
                                 infoPanelUI.SetActive(false);
                                 ownedCardsUI.SetActive(false);
-                                state = EndOfGame.SHOW_AD_PANEL;                                
-                            }
-                            else
-                            {
-                                has0ScoreOnNextBonus = false;
-                                noInternetTextGO.SetActive(true);
-                                infoPanelUI.SetActive(false);
-                                ownedCardsUI.SetActive(false);
-                                state = EndOfGame.MOVE_SCORE_MIDDLE;
-                            }
+                                state = EndOfGame.SHOW_AD_PANEL;
+                            }*/
+                            //else
+                            //{
+                            has0ScoreOnNextBonus = false;
+                            noInternetTextGO.SetActive(true);
+                            infoPanelUI.SetActive(false);
+                            ownedCardsUI.SetActive(false);
+                            state = EndOfGame.MOVE_SCORE_MIDDLE;
+                            //}
                         }
 
                         break;
@@ -732,12 +732,12 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                         SetBonusCoinsText(addedBonusCoinsText, bonusScore);
                         UpdateCoinsText(totalCoinsEarnedText, finalScore, true);
 
-                        if(t >= 1)
+                        if (t >= 1)
                         {
                             t = 0;
 
                             adPanelGO.SetActive(false);
-                            addedBonusCoinsText.gameObject.SetActive(false);                            
+                            addedBonusCoinsText.gameObject.SetActive(false);
                             state = EndOfGame.MOVE_SCORE_MIDDLE;
                         }
 
@@ -752,7 +752,7 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                         finalScoreText.fontSize = Mathf.Lerp(startFontSize, newScoreFontSize, t);
                         coinsRT.anchoredPosition = Vector2.Lerp(coinsStartPos, coinsMiddlePos, t);
 
-                        if(t >= 1)
+                        if (t >= 1)
                         {
                             t = 0;
 
@@ -803,9 +803,9 @@ public class EndOfRunScoreAnimation : MonoBehaviour
                     }
             }
 
-            if(Input.touchCount > 0)
+            if (Input.touchCount > 0)
             {
-                if(Input.GetTouch(0).phase == TouchPhase.Began)
+                if (Input.GetTouch(0).phase == TouchPhase.Began)
                 {
                     if (EventSystem.current.IsPointerOverGameObject()) return;
 
@@ -851,18 +851,18 @@ public class EndOfRunScoreAnimation : MonoBehaviour
 
     public void SetBonusCoinsText(TMP_Text textToChange, int coinsAmount)
     {
-        textToChange.text = "+0" + coinsAmount.ToString();        
+        textToChange.text = "+0" + coinsAmount.ToString();
     }
 
     public void WatchAdButton()
     {
         Time.timeScale = 0;
-        um.ShowRewardedVideo();
+        //um.ShowRewardedVideo();
         watchedAd = true;
         watchButton.SetActive(false);
         ignoreButton.SetActive(false);
         bonusScore = (int)(gm.adBonusMultiplier * gm.currentMoney) - gm.currentMoney;
-        gm.currentMoney = (int)(gm.currentMoney * gm.adBonusMultiplier );
+        gm.currentMoney = (int)(gm.currentMoney * gm.adBonusMultiplier);
 
         MenuDataManager.Instance.numberOfAdsWatched++;
         AchievementManager.instance.VerifyAchievementProgress(20, "HELPFUL_ADS", MenuDataManager.Instance.numberOfAdsWatched);

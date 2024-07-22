@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 using System.Collections;
@@ -25,7 +25,7 @@ public class MenuDataManager : MonoBehaviour
     public int highestClassicScore = 0;
 
     public int numberOfGamesPlayed = 0;
-    public int numberOfAdsWatched = 0;    
+    public int numberOfAdsWatched = 0;
 
     //Unlockables
     public List<bool> unlockableUnlockState = new List<bool>();
@@ -41,7 +41,7 @@ public class MenuDataManager : MonoBehaviour
         {
             if (instance == null)
             {
-                Debug.LogWarning("Creating MenuDataManager");
+                //Debug.LogWarning("Creating MenuDataManager");
                 GameObject owner = new GameObject("MenuDataManager");
                 instance = owner.AddComponent<MenuDataManager>();
             }
@@ -60,7 +60,7 @@ public class MenuDataManager : MonoBehaviour
         }
         else if (instance != this)
         {
-            Debug.LogWarning("Destroying MenuDataManager");
+            //Debug.LogWarning("Destroying MenuDataManager");
             Destroy(this);
         }
 
@@ -134,7 +134,7 @@ public class MenuDataManager : MonoBehaviour
             {
                 unlockableUnlockState.Add(data.saved_unlockableUnlockState[i]);
             }
-        }        
+        }
 
         numberOfGamesPlayed = data.saved_numberOfGamesPlayed;
         numberOfAdsWatched = data.saved_numberOfAdsWatched;

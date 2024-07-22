@@ -6463,7 +6463,6 @@ GameObject:
   - component: {fileID: 659079366}
   - component: {fileID: 659079370}
   - component: {fileID: 659079369}
-  - component: {fileID: 659079365}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6471,18 +6470,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &659079365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 659079364}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!81 &659079366
 AudioListener:
   m_ObjectHideFlags: 0
@@ -6696,7 +6683,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 662313642}
-  - component: {fileID: 662313641}
   m_Layer: 0
   m_Name: Global Volume
   m_TagString: Untagged
@@ -6704,18 +6690,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &662313641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662313640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &662313642
 Transform:
   m_ObjectHideFlags: 0
@@ -8131,7 +8105,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e714b80d5abca40b7540170a25a629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  um: {fileID: 1900857634}
   state: 0
   readyToRunAnimation: 0
   transitionIsAlpha: 1
@@ -15911,7 +15884,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1900857635}
-  - component: {fileID: 1900857634}
   m_Layer: 0
   m_Name: AdsManager
   m_TagString: Untagged
@@ -15919,19 +15891,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1900857634
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900857633}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72f564fc8a6505b418550b96b1e3f8a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  showResult: 0
 --- !u!4 &1900857635
 Transform:
   m_ObjectHideFlags: 0

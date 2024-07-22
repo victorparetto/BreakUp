@@ -5,11 +5,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Singleton: MonoBehaviour {
+public class Singleton : MonoBehaviour
+{
 
-	private static Singleton instance;
-	string climbPath;
-	string classicPath;
+    private static Singleton instance;
+    string climbPath;
+    string classicPath;
 
     //Data to save
     public bool hasSavedData = false;
@@ -76,34 +77,34 @@ public class Singleton: MonoBehaviour {
     public bool isRandomized_Temp = false;
 
     public static Singleton Instance
-	{
-		get
-		{
-			if (instance == null)
-			{
-				Debug.LogWarning("Creating Singleton");
-				GameObject owner = new GameObject("Singleton");
-				instance = owner.AddComponent<Singleton>();
-			}
-			return instance;
-		}
-	}
+    {
+        get
+        {
+            if (instance == null)
+            {
+                //Debug.LogWarning("Creating Singleton");
+                GameObject owner = new GameObject("Singleton");
+                instance = owner.AddComponent<Singleton>();
+            }
+            return instance;
+        }
+    }
 
-	private void Awake()
-	{
-		climbPath = Application.persistentDataPath + "/ClimbInfo.dat";
-		classicPath = Application.persistentDataPath + "/ClassicInfo.dat";
+    private void Awake()
+    {
+        climbPath = Application.persistentDataPath + "/ClimbInfo.dat";
+        classicPath = Application.persistentDataPath + "/ClassicInfo.dat";
 
         if (instance == null)
-		{
-			instance = this;
-			DontDestroyOnLoad(gameObject);
-		}
-		else if (instance != this)
-		{
-			Debug.LogWarning("Destroying Singleton");
-			Destroy(this);
-		}
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else if (instance != this)
+        {
+            //Debug.LogWarning("Destroying Singleton");
+            Destroy(this);
+        }
 
         for (int i = 0; i < 3; i++)
         {
@@ -128,31 +129,31 @@ public class Singleton: MonoBehaviour {
             Save(gameMode);
     }
 
-	public void Save (int gameMode) 
-	{
-		BinaryFormatter bf = new BinaryFormatter ();
-		FileStream file = File.Create ((gameMode == 0) ? climbPath : classicPath);
-		PlayerData data = new PlayerData ();
-		DataToSave(data);
-		bf.Serialize (file, data);
-		file.Close ();
+    public void Save(int gameMode)
+    {
+        BinaryFormatter bf = new BinaryFormatter();
+        FileStream file = File.Create((gameMode == 0) ? climbPath : classicPath);
+        PlayerData data = new PlayerData();
+        DataToSave(data);
+        bf.Serialize(file, data);
+        file.Close();
 
-	}
+    }
 
     public void Load(int gameMode)
-	{
-		if (File.Exists ((gameMode == 0) ? climbPath : classicPath))
-		{
-			BinaryFormatter bf = new BinaryFormatter ();
-			FileStream file = File.Open ((gameMode == 0) ? climbPath : classicPath, FileMode.Open);
-			PlayerData data = (PlayerData)bf.Deserialize (file);
-			file.Close();
-			DataToLoad (data);
-		}
-	}
+    {
+        if (File.Exists((gameMode == 0) ? climbPath : classicPath))
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Open((gameMode == 0) ? climbPath : classicPath, FileMode.Open);
+            PlayerData data = (PlayerData)bf.Deserialize(file);
+            file.Close();
+            DataToLoad(data);
+        }
+    }
 
-	void DataToSave(PlayerData data)
-	{
+    void DataToSave(PlayerData data)
+    {
         data.saved_hasSaveData = hasSavedData;
         data.saved_isRandomRun = isRandomRun;
         data.saved_totalMoney = runMoney;
@@ -279,7 +280,7 @@ public class Singleton: MonoBehaviour {
         fireRate = data.saved_fireRate;
         fireCounter = data.saved_fireCounter;
         shootCounter = data.saved_shootCounter;
-        
+
         if (data.saved_bulletPosX != null)
         {
             bulletPosX.Clear();
@@ -291,8 +292,8 @@ public class Singleton: MonoBehaviour {
                 bulletPosY.Add(data.saved_bulletPosY[i]);
             }
         }
-        
-        if(data.saved_bubbleIndex != null)
+
+        if (data.saved_bubbleIndex != null)
         {
             bubblePosX.Clear();
             bubblePosY.Clear();
@@ -312,8 +313,8 @@ public class Singleton: MonoBehaviour {
         globalRunTimer = data.saved_globalRunTimer;
 
         hasDiedThisRun = data.saved_hasDiedThisRun;
-    //postprocessing_On = data.saved_postprocessing_On;
-}
+        //postprocessing_On = data.saved_postprocessing_On;
+    }
 
     public void ResetVariables()
     {
@@ -371,7 +372,7 @@ public class Singleton: MonoBehaviour {
         globalRunTimer = 0;
 
         hasDiedThisRun = false;
-}
+    }
 }
 
 [Serializable]
