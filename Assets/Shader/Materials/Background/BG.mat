@@ -74,7 +74,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 4563124aa5736f74693eb298488da2f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -176,7 +176,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.11372549, g: 0.11372549, b: 0.11372549, a: 1}
     - _ClipRect: {r: -32767, g: -32767, b: 32767, a: 32767}
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.11372549, g: 0.11372549, b: 0.11372549, a: 1}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
@@ -195,4 +195,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
+  version: 7
