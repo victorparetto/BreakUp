@@ -8,8 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WallMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: 98200c3ef729395469025532e50c2c86,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 98200c3ef729395469025532e50c2c86, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -52,7 +51,7 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _MainColor: {r: 1.5, g: 1.382353, b: 0.023529414, a: 1.5}
+    - _MainColor: {r: 1.5, g: 0, b: 0, a: 1.5}
   m_BuildTextureStacks: []
 --- !u!114 &8207181908901409216
 MonoBehaviour:

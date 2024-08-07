@@ -3,22 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Breakable
-  - Ball
-  - Wall
-  - TopBound
-  - BotBound
-  - DragPanel
-  - GameManager
-  - PowerUpManager
-  - InstantKill
-  - CardSlot1
-  - CardSlot2
-  - CardSlot3
-  - UIManager
-  - Unbreakable
-  - Bullet
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -28,15 +13,15 @@ TagManager:
   - UI
   - 
   - 
-  - Ball
-  - Block
-  - BallPhasing
-  - Wall
-  - BlockDestroyed
-  - Paddle
-  - PowerUp
-  - Triggers
-  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 
