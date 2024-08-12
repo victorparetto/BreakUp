@@ -1,0 +1,591 @@
+fileFormatVersion: 2
+guid: 1a4bb7c1ddf43e54986bf04168c798b0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e1cf7ae5d90184aa3812338336e325
+      internalID: -1136260004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdad86128380ed4d8c0f01085cf63a1
+      internalID: 2046109724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_2
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fdfbf37c9c39054a93aa9f6cc9a9f3a
+      internalID: 2060461115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_3
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fe64e043223ba4ba592893162b91d0
+      internalID: -1896754170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 448
+        width: 256
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a675916591eb9f41878196147379f41
+      internalID: -48533464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b37c5eb8f33454ca2dd995db08f0cf
+      internalID: 115501175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960ef7b593755f8458cd1c2d7e938dd2
+      internalID: 1605532413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1192b81547b95429434e1ad82caf2c
+      internalID: 745075063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 194
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8b302489385d246a9a6209c5a1047e
+      internalID: 347574995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_9
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 194
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77951d812e5bd34ab2ac68570209a34
+      internalID: -1800486202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a3a1302f89980449bebde7694e6ec4
+      internalID: -1187865408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d970ac1c0fcb4a4a8392bda1032aeee
+      internalID: 1635831471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c8eae5fe4811e419acd016ad024177
+      internalID: -1322488482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_13
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6ac7923bb2d89409233ff9d4be9fc5
+      internalID: 1679877673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_SS_Sprite_URP_14
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dc4e8d035dd074db529bb0af443acd
+      internalID: 137319612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 6edcb3260d7fd8c4384b85fa884aed8a, type: 3}
+      name: _Emission
+    nameFileIdTable:
+      Block_SS_Sprite_URP_0: -1136260004
+      Block_SS_Sprite_URP_1: 2046109724
+      Block_SS_Sprite_URP_10: -1187865408
+      Block_SS_Sprite_URP_100: 1525002142
+      Block_SS_Sprite_URP_101: 1723955729
+      Block_SS_Sprite_URP_102: -307353452
+      Block_SS_Sprite_URP_103: 1254456777
+      Block_SS_Sprite_URP_104: -832336762
+      Block_SS_Sprite_URP_105: -935972408
+      Block_SS_Sprite_URP_106: -1039870764
+      Block_SS_Sprite_URP_107: 223358221
+      Block_SS_Sprite_URP_108: -2089692641
+      Block_SS_Sprite_URP_109: 621226382
+      Block_SS_Sprite_URP_11: 1635831471
+      Block_SS_Sprite_URP_110: -281153778
+      Block_SS_Sprite_URP_111: -1996503149
+      Block_SS_Sprite_URP_112: 1470710049
+      Block_SS_Sprite_URP_113: -1753725314
+      Block_SS_Sprite_URP_114: -1960704863
+      Block_SS_Sprite_URP_115: -2073252174
+      Block_SS_Sprite_URP_116: -392299830
+      Block_SS_Sprite_URP_117: -1161263506
+      Block_SS_Sprite_URP_118: 66210313
+      Block_SS_Sprite_URP_119: 239369195
+      Block_SS_Sprite_URP_12: -1322488482
+      Block_SS_Sprite_URP_120: -267894700
+      Block_SS_Sprite_URP_121: 1099965627
+      Block_SS_Sprite_URP_122: -72541673
+      Block_SS_Sprite_URP_123: -1897913875
+      Block_SS_Sprite_URP_124: -722688825
+      Block_SS_Sprite_URP_125: -175741328
+      Block_SS_Sprite_URP_126: -933920393
+      Block_SS_Sprite_URP_127: -29759033
+      Block_SS_Sprite_URP_128: -1412669999
+      Block_SS_Sprite_URP_129: -614473234
+      Block_SS_Sprite_URP_13: 1679877673
+      Block_SS_Sprite_URP_130: 106565791
+      Block_SS_Sprite_URP_131: -1837124122
+      Block_SS_Sprite_URP_132: -361474585
+      Block_SS_Sprite_URP_133: 1365965528
+      Block_SS_Sprite_URP_134: 528999984
+      Block_SS_Sprite_URP_135: 367982906
+      Block_SS_Sprite_URP_136: 365390897
+      Block_SS_Sprite_URP_137: 336896957
+      Block_SS_Sprite_URP_138: 91702146
+      Block_SS_Sprite_URP_139: -548020640
+      Block_SS_Sprite_URP_14: 137319612
+      Block_SS_Sprite_URP_140: -1862304555
+      Block_SS_Sprite_URP_141: -2053395606
+      Block_SS_Sprite_URP_142: 313018108
+      Block_SS_Sprite_URP_143: -1076144137
+      Block_SS_Sprite_URP_144: -648209637
+      Block_SS_Sprite_URP_145: 1036719881
+      Block_SS_Sprite_URP_146: 116437114
+      Block_SS_Sprite_URP_147: -1070038011
+      Block_SS_Sprite_URP_148: 811831607
+      Block_SS_Sprite_URP_149: 940717534
+      Block_SS_Sprite_URP_15: -981049853
+      Block_SS_Sprite_URP_150: -699865102
+      Block_SS_Sprite_URP_151: 1356419266
+      Block_SS_Sprite_URP_152: 552134361
+      Block_SS_Sprite_URP_153: -798559027
+      Block_SS_Sprite_URP_154: -1748938408
+      Block_SS_Sprite_URP_155: 1182522334
+      Block_SS_Sprite_URP_156: -688933171
+      Block_SS_Sprite_URP_157: 1654549716
+      Block_SS_Sprite_URP_158: 1251901346
+      Block_SS_Sprite_URP_159: 1362685103
+      Block_SS_Sprite_URP_16: 1613573559
+      Block_SS_Sprite_URP_17: -1085811045
+      Block_SS_Sprite_URP_18: 1379575171
+      Block_SS_Sprite_URP_19: 2046327881
+      Block_SS_Sprite_URP_2: 2060461115
+      Block_SS_Sprite_URP_20: -258137655
+      Block_SS_Sprite_URP_21: 392821759
+      Block_SS_Sprite_URP_22: 990527189
+      Block_SS_Sprite_URP_23: 698518810
+      Block_SS_Sprite_URP_24: 2032908226
+      Block_SS_Sprite_URP_25: -1769006850
+      Block_SS_Sprite_URP_26: -1676785855
+      Block_SS_Sprite_URP_27: -635775032
+      Block_SS_Sprite_URP_28: -1829700042
+      Block_SS_Sprite_URP_29: 129158931
+      Block_SS_Sprite_URP_3: -1896754170
+      Block_SS_Sprite_URP_30: 1859393330
+      Block_SS_Sprite_URP_31: 716085828
+      Block_SS_Sprite_URP_32: -813748695
+      Block_SS_Sprite_URP_33: 1783711096
+      Block_SS_Sprite_URP_34: -525571458
+      Block_SS_Sprite_URP_35: 112289899
+      Block_SS_Sprite_URP_36: -1544144221
+      Block_SS_Sprite_URP_37: 1402735298
+      Block_SS_Sprite_URP_38: 97170582
+      Block_SS_Sprite_URP_39: -1141614377
+      Block_SS_Sprite_URP_4: -48533464
+      Block_SS_Sprite_URP_40: -248926989
+      Block_SS_Sprite_URP_41: 1572269975
+      Block_SS_Sprite_URP_42: -1201036
+      Block_SS_Sprite_URP_43: -122274076
+      Block_SS_Sprite_URP_44: 1466924954
+      Block_SS_Sprite_URP_45: -2095345751
+      Block_SS_Sprite_URP_46: 438630882
+      Block_SS_Sprite_URP_47: -1385920324
+      Block_SS_Sprite_URP_48: 15994615
+      Block_SS_Sprite_URP_49: 1982331050
+      Block_SS_Sprite_URP_5: 115501175
+      Block_SS_Sprite_URP_50: 1432618494
+      Block_SS_Sprite_URP_51: -2111606301
+      Block_SS_Sprite_URP_52: -1658941468
+      Block_SS_Sprite_URP_53: 1854030579
+      Block_SS_Sprite_URP_54: -483642236
+      Block_SS_Sprite_URP_55: -182021547
+      Block_SS_Sprite_URP_56: -2125560890
+      Block_SS_Sprite_URP_57: -547508779
+      Block_SS_Sprite_URP_58: -177779920
+      Block_SS_Sprite_URP_59: -1220263747
+      Block_SS_Sprite_URP_6: 1605532413
+      Block_SS_Sprite_URP_60: 1640785627
+      Block_SS_Sprite_URP_61: -168781673
+      Block_SS_Sprite_URP_62: -743209593
+      Block_SS_Sprite_URP_63: 1795907013
+      Block_SS_Sprite_URP_64: -734597459
+      Block_SS_Sprite_URP_65: 649638294
+      Block_SS_Sprite_URP_66: -543739765
+      Block_SS_Sprite_URP_67: -1101201876
+      Block_SS_Sprite_URP_68: -1060088676
+      Block_SS_Sprite_URP_69: 892364732
+      Block_SS_Sprite_URP_7: 745075063
+      Block_SS_Sprite_URP_70: 1447450488
+      Block_SS_Sprite_URP_71: -1000021396
+      Block_SS_Sprite_URP_72: 978065343
+      Block_SS_Sprite_URP_73: -1307520213
+      Block_SS_Sprite_URP_74: -1764512563
+      Block_SS_Sprite_URP_75: -1393719841
+      Block_SS_Sprite_URP_76: 986496594
+      Block_SS_Sprite_URP_77: -490320381
+      Block_SS_Sprite_URP_78: 1378321655
+      Block_SS_Sprite_URP_79: -2100939224
+      Block_SS_Sprite_URP_8: 347574995
+      Block_SS_Sprite_URP_80: 1715095837
+      Block_SS_Sprite_URP_81: -73693182
+      Block_SS_Sprite_URP_82: -1086780304
+      Block_SS_Sprite_URP_83: -1193332437
+      Block_SS_Sprite_URP_84: 461203503
+      Block_SS_Sprite_URP_85: 1443603346
+      Block_SS_Sprite_URP_86: 799382058
+      Block_SS_Sprite_URP_87: 803522263
+      Block_SS_Sprite_URP_88: 1865148312
+      Block_SS_Sprite_URP_89: -1308143380
+      Block_SS_Sprite_URP_9: -1800486202
+      Block_SS_Sprite_URP_90: -1384479210
+      Block_SS_Sprite_URP_91: -2002498003
+      Block_SS_Sprite_URP_92: -493077156
+      Block_SS_Sprite_URP_93: 1464005748
+      Block_SS_Sprite_URP_94: -1656070469
+      Block_SS_Sprite_URP_95: 38726713
+      Block_SS_Sprite_URP_96: 621590932
+      Block_SS_Sprite_URP_97: -355661758
+      Block_SS_Sprite_URP_98: -632294892
+      Block_SS_Sprite_URP_99: -803134305
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
