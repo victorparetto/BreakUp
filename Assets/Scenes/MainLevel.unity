@@ -7909,7 +7909,7 @@ MonoBehaviour:
   goldCardsChooseParticle: {fileID: 649909166}
   bubbleExplosionParticle: {fileID: 4280820445963574454, guid: ceac18b28ff641a4e87f5da47b3998e0, type: 3}
   inwardsParticle: {fileID: 1742545698}
-  paddlePrefab: {fileID: 2331035480556538530, guid: b997c3ee7fb56d346aba2c253c97952e, type: 3}
+  paddlePrefab: {fileID: 413864932141238799, guid: 1545d5f196c39b04787c6e14feba2357, type: 3}
   paddleSpawnPlace: {x: 0, y: -6}
   mp: {fileID: 0}
   currentMoney: 0
